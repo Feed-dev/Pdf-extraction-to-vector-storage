@@ -6,6 +6,7 @@ import os
 # Configure pytesseract path to the Tesseract executable
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
+
 def extract_text_from_page(page):
     """Extract text from a given page object."""
     text = page.get_text()
@@ -16,6 +17,7 @@ def extract_text_from_page(page):
         img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
         text = pytesseract.image_to_string(img)
         return text
+
 
 def process_pdf(file_path):
     """Process each PDF, extracting text from each page."""
@@ -28,6 +30,7 @@ def process_pdf(file_path):
     doc.close()
     return "\n".join(text_content)
 
+
 def main(pdf_directory):
     for root, dirs, files in os.walk(pdf_directory):
         for file in files:
@@ -39,6 +42,7 @@ def main(pdf_directory):
                 output_path = file_path.replace('.pdf', '.txt')
                 with open(output_path, 'w', encoding='utf-8') as f:
                     f.write(text)
+
 
 if __name__ == "__main__":
     pdf_directory = r'F:\e-boeken\The Mystic Library\Great_Library_A-G\Alchemy'
