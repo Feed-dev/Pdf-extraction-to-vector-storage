@@ -58,5 +58,5 @@ def main(pdf_directory):
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\The Mystic Library\Great_Library_L-Z\Witchcraft'
+    pdf_directory = r'C:\Library\PDF_directory'  # Change this to the directory containing your PDFs
     main(pdf_directory)
