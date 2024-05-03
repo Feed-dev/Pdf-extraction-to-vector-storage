@@ -2,3 +2,7 @@ pytesseract~=0.3.10
 pillow~=10.3.0
 PyMuPDF~=1.24.2
 spacy~=3.7.4 # https://spacy.io/usage/v3
+cohere~=5.3.4
+pinecone-client~=4.0.0
+python-dotenv~=1.0.1
+langchain-community~=0.0.36

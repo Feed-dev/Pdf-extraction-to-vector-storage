@@ -25,13 +25,12 @@ nlp = spacy.load("en_core_web_sm")
 embeddings = CohereEmbeddings(model="multilingual-22-12")
 
 # Initialize Pinecone
-pinecone.init(api_key="your-pinecone-api-key", environment='us-west1-gcp')
-index_name = "vector-index"
+pinecone = PineconeClient(api_key=PINECONE_API_KEY,
+                          environment=PINECONE_ENVIRONMENT)
 
-# Create or connect to an existing index
-if index_name not in pinecone.list_indexes():
-    pinecone.create_index(index_name, dimension=768, metric='cosine')  # Adjust dimension based on your embeddings
-index = pinecone.Index(index_name)
+# Connect to an existing index
+vectorstore = Pinecone.from_existing_index(index_name=PINECONE_INDEX_NAME,
+                                           embedding=embeddings)
 
 
 def extract_text_from_page(page):
@@ -79,7 +78,7 @@ def vectorize_text(text_chunks):
 # Upload vectors
 def upload_vectors(index, vector_data):
     upserts = [(item[0], item[1]) for item in vector_data]
-    index.upsert(vectors=upserts)
+    vectorstore.upsert(vectors=upserts)
 
 
 def main(pdf_directory):
