@@ -5,6 +5,14 @@ import os
 import spacy
 import pinecone
 from langchain_community.embeddings import CohereEmbeddings
+from dotenv import load_dotenv
+
+load_dotenv()
+
+# Keys
+PINECONE_API_KEY = os.environ["PINECONE_API_KEY"]
+PINECONE_ENVIRONMENT = os.environ["PINECONE_ENVIRONMENT"]
+PINECONE_INDEX_NAME = os.environ["PINECONE_INDEX_NAME"]
 
 # Configure pytesseract path to the Tesseract executable
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
@@ -16,8 +24,8 @@ nlp = spacy.load("en_core_web_sm")
 embeddings = CohereEmbeddings(model="multilingual-22-12")
 
 # Pinecone initialization
-pinecone.init(api_key="your-pinecone-api-key", environment='us-west1-gcp')
-index_name = "vector-index"
+pinecone.init(api_key="PINECONE_API_KEY", environment='PINECONE_ENVIRONMENT')
+index_name = "PINECONE_INDEX_NAME"
 
 if index_name not in pinecone.list_indexes():
     pinecone.create_index(index_name, dimension=768, metric='cosine')  # Adjust dimension based on your embeddings
