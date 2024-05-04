@@ -2,35 +2,14 @@ import fitz  # PyMuPDF
 import pytesseract
 from PIL import Image
 import os
-from dotenv import load_dotenv
 import spacy
 
-from langchain_community.embeddings import CohereEmbeddings
-from langchain_community.vectorstores import Pinecone
-from pinecone import Pinecone as PineconeClient
-
-load_dotenv()
-
-# Keys
-PINECONE_API_KEY = os.environ["PINECONE_API_KEY"]
-PINECONE_ENVIRONMENT = os.environ["PINECONE_ENVIRONMENT"]
-PINECONE_INDEX_NAME = os.environ["PINECONE_INDEX_NAME"]
 
 # Configure pytesseract path to the Tesseract executable
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 # Load spaCy English model
 nlp = spacy.load("en_core_web_sm")
-
-embeddings = CohereEmbeddings(model="multilingual-22-12")
-
-# Initialize Pinecone
-pinecone = PineconeClient(api_key=PINECONE_API_KEY,
-                          environment=PINECONE_ENVIRONMENT)
-
-# Connect to an existing index
-vectorstore = Pinecone.from_existing_index(index_name=PINECONE_INDEX_NAME,
-                                           embedding=embeddings)
 
 
 def extract_text_from_page(page):
@@ -68,17 +47,7 @@ def process_pdf(file_path):
         chunks = chunk_text(processed_text)
         text_content.extend([(f"{file_path}_page_{page_num}_chunk_{i}", chunk) for i, chunk in enumerate(chunks)])
     doc.close()
-    return
-
-
-def vectorize_text(text_chunks):
-    return [(f"{chunk_id}", embeddings.embed_query(chunk)) for chunk_id, chunk in text_chunks]
-
-
-# Upload vectors
-def upload_vectors(index, vector_data):
-    upserts = [(item[0], item[1]) for item in vector_data]
-    vectorstore.upsert(vectors=upserts)
+    return text_content
 
 
 def main(pdf_directory):
