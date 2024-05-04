@@ -1,16 +1,27 @@
-# Description: Extract text from PDFs, preprocess the text, and save the preprocessed text to a .txt file.
 import fitz  # PyMuPDF
 import pytesseract
 from PIL import Image
 import os
 import spacy
-
+import pinecone
+from langchain_community.embeddings import CohereEmbeddings
 
 # Configure pytesseract path to the Tesseract executable
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 # Load spaCy English model
 nlp = spacy.load("en_core_web_sm")
+
+# Initialize Cohere embeddings
+embeddings = CohereEmbeddings(model="multilingual-22-12")
+
+# Pinecone initialization
+pinecone.init(api_key="your-pinecone-api-key", environment='us-west1-gcp')
+index_name = "vector-index"
+
+if index_name not in pinecone.list_indexes():
+    pinecone.create_index(index_name, dimension=768, metric='cosine')  # Adjust dimension based on your embeddings
+index = pinecone.Index(index_name)
 
 
 def extract_text_from_page(page):
@@ -38,8 +49,19 @@ def chunk_text(text, chunk_size=500):
     return [" ".join(words[i:i + chunk_size]) for i in range(0, len(words), chunk_size)]
 
 
+def vectorize_text(text_chunks):
+    """Vectorize the text chunks using Cohere embeddings."""
+    return [(f"{chunk_id}", embeddings.embed_query(chunk)) for chunk_id, chunk in text_chunks]
+
+
+def upload_vectors(index, vector_data):
+    """Upload vectors to Pinecone."""
+    upserts = [(item[0], item[1]) for item in vector_data]
+    index.upsert(vectors=upserts)
+
+
 def process_pdf(file_path):
-    """Process each PDF, extracting, preprocessing, and chunking text from each page."""
+    """Process each PDF, extracting, preprocessing, chunking, and vectorizing text from each page, then upload to Pinecone."""
     doc = fitz.open(file_path)
     text_content = []
     for page_num in range(len(doc)):
@@ -49,7 +71,10 @@ def process_pdf(file_path):
         chunks = chunk_text(processed_text)
         text_content.extend([(f"{file_path}_page_{page_num}_chunk_{i}", chunk) for i, chunk in enumerate(chunks)])
     doc.close()
-    return text_content
+
+    # Vectorize and upload
+    vectors = vectorize_text(text_content)
+    upload_vectors(index, vectors)
 
 
 def main(pdf_directory):
@@ -58,11 +83,7 @@ def main(pdf_directory):
             if file.endswith('.pdf'):
                 file_path = os.path.join(root, file)
                 print(f"Processing: {file_path}")
-                text = process_pdf(file_path)
-                # Save the preprocessed text to a .txt file
-                output_path = file_path.replace('.pdf', '.txt')
-                with open(output_path, 'w', encoding='utf-8') as f:
-                    f.write(text)
+                process_pdf(file_path)
 
 
 if __name__ == "__main__":

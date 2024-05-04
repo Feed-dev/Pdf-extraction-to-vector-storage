@@ -1,3 +1,4 @@
+# Description: This script vectorizes text data using Cohere's embeddings and uploads the vectors to Pinecone.
 import pinecone
 from langchain_community.embeddings import CohereEmbeddings
 
