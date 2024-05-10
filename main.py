@@ -1,11 +1,13 @@
 import fitz  # PyMuPDF
 import pytesseract
 from PIL import Image
+from threading import Semaphore, Thread
 import os
 import spacy
 from pinecone import Pinecone, ServerlessSpec
 from langchain_cohere import CohereEmbeddings
 from dotenv import load_dotenv
+import time
 
 load_dotenv()
 
@@ -36,6 +38,16 @@ if index_name not in pc.list_indexes().names():
     )
 index = pc.Index(index_name)
 
+# Semaphore to limit the number of api calls for the embeddings service free tier
+max_calls_per_minute = 90  # setting it a bit lower than 100 to avoid hitting the limit
+semaphore = Semaphore(max_calls_per_minute)
+
+
+def manage_semaphore():
+    while True:
+        time.sleep(60 / max_calls_per_minute)  # Sleep time adjusted to spread out the release
+        semaphore.release()
+
 
 def extract_text_from_page(page):
     """Extract text from a given page object."""
@@ -64,7 +76,12 @@ def chunk_text(text, chunk_size=500):
 
 def vectorize_text(text_chunks):
     """Vectorize the text chunks using Cohere embeddings."""
-    return [(f"{chunk_id}", embeddings.embed_query(chunk)) for chunk_id, chunk in text_chunks]
+    results = []
+    for chunk_id, chunk in text_chunks:
+        with semaphore:
+            result = embeddings.embed_query(chunk)
+            results.append((f"{chunk_id}", result))
+    return results
 
 
 def upload_vectors(index, vector_data):
@@ -91,6 +108,11 @@ def process_pdf(file_path):
 
 
 def main(pdf_directory):
+    # Start the semaphore management in a background thread
+    thread = Thread(target=manage_semaphore)
+    thread.daemon = True
+    thread.start()
+
     for root, dirs, files in os.walk(pdf_directory):
         for file in files:
             if file.endswith('.pdf'):
