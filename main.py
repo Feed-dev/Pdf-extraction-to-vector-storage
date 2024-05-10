@@ -3,8 +3,8 @@ import pytesseract
 from PIL import Image
 import os
 import spacy
-import pinecone
-from langchain_community.embeddings import CohereEmbeddings
+from pinecone import Pinecone, ServerlessSpec
+from langchain_cohere import CohereEmbeddings
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -24,12 +24,17 @@ nlp = spacy.load("en_core_web_sm")
 embeddings = CohereEmbeddings(model="multilingual-22-12")
 
 # Pinecone initialization
-pinecone.init(api_key="PINECONE_API_KEY", environment='PINECONE_ENVIRONMENT')
-index_name = "PINECONE_INDEX_NAME"
+pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
 
-if index_name not in pinecone.list_indexes():
-    pinecone.create_index(index_name, dimension=768, metric='cosine')  # Adjust dimension based on your embeddings
-index = pinecone.Index(index_name)
+index_name = os.getenv("PINECONE_INDEX_NAME")
+if index_name not in pc.list_indexes().names():
+    pc.create_index(
+        name=index_name,
+        dimension=768,  # Make sure this matches your embeddings' dimension
+        metric='cosine',
+        spec=ServerlessSpec(cloud='aws', region='us-east-1')
+    )
+index = pc.Index(index_name)
 
 
 def extract_text_from_page(page):
