@@ -1,13 +1,11 @@
 import fitz  # PyMuPDF
 import pytesseract
 from PIL import Image
-from threading import Semaphore, Thread
 import os
 import spacy
 from pinecone import Pinecone, ServerlessSpec
 from langchain_cohere import CohereEmbeddings
 from dotenv import load_dotenv
-import time
 
 load_dotenv()
 
