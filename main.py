@@ -21,7 +21,7 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 nlp = spacy.load("en_core_web_sm")
 
 # Initialize Cohere embeddings
-embeddings = CohereEmbeddings(model="multilingual-22-12")
+embeddings = CohereEmbeddings(model="embed-multilingual-v3.0")
 
 # Pinecone initialization
 pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
@@ -30,7 +30,7 @@ index_name = os.getenv("PINECONE_INDEX_NAME")
 if index_name not in pc.list_indexes().names():
     pc.create_index(
         name=index_name,
-        dimension=768,  # Make sure this matches your embeddings' dimension
+        dimension=1024,  # Make sure this matches your embeddings' dimension
         metric='cosine',
         spec=ServerlessSpec(cloud='aws', region='us-east-1')
     )
