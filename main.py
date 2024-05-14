@@ -68,8 +68,8 @@ def vectorize_text(text_chunks):
 
 
 def upload_vectors(index, vector_data):
-    """Upload vectors to Pinecone."""
-    upserts = [(item[0], item[1]) for item in vector_data]
+    """Upload vectors to Pinecone with metadata."""
+    upserts = [(item[0], item[1], {"metadata": item[2]}) for item in vector_data]
     index.upsert(vectors=upserts)
 
 
@@ -82,7 +82,7 @@ def process_pdf(file_path):
         page_text = extract_text_from_page(page)
         processed_text = preprocess_text(page_text)
         chunks = chunk_text(processed_text)
-        text_content.extend([(f"{file_path}_page_{page_num}_chunk_{i}", chunk) for i, chunk in enumerate(chunks)])
+        text_content.extend([(f"{file_path}_page_{page_num}_chunk_{i}", chunk, {"file": file_path, "page": page_num, "chunk": i}) for i, chunk in enumerate(chunks)])
     doc.close()
 
     # Vectorize and upload
