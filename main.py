@@ -36,7 +36,6 @@ if index_name not in pc.list_indexes().names():
     )
 index = pc.Index(index_name)
 
-
 def extract_text_from_page(page):
     """Extract text from a given page object."""
     text = page.get_text()
@@ -48,30 +47,36 @@ def extract_text_from_page(page):
         text = pytesseract.image_to_string(img)
         return text
 
-
 def preprocess_text(text):
     """Preprocess the text using spaCy for NLP tasks."""
     doc = nlp(text)
     cleaned_text = [token.lemma_.lower() for token in doc if not token.is_stop and not token.is_punct and not token.is_space]
     return ' '.join(cleaned_text)
 
-
 def chunk_text(text, chunk_size=500):
     """Chunk the text into smaller pieces."""
     words = text.split()
     return [" ".join(words[i:i + chunk_size]) for i in range(0, len(words), chunk_size)]
 
-
 def vectorize_text(text_chunks):
     """Vectorize the text chunks using Cohere embeddings."""
     return [(chunk_id, embeddings.embed_query(chunk), metadata) for chunk_id, chunk, metadata in text_chunks]
 
-
 def upload_vectors(index, vector_data):
     """Upload vectors to Pinecone with metadata."""
-    upserts = [(item[0], item[1], {"metadata": item[2]}) for item in vector_data]
+    upserts = [
+        {
+            "id": item[0],
+            "values": item[1],
+            "metadata": {
+                "file": item[2]["file"],
+                "page": item[2]["page"],
+                "chunk": item[2]["chunk"]
+            }
+        }
+        for item in vector_data
+    ]
     index.upsert(vectors=upserts)
-
 
 def process_pdf(file_path):
     """Process each PDF, extracting, preprocessing, chunking, and vectorizing text from each page, then upload to Pinecone."""
@@ -89,7 +94,6 @@ def process_pdf(file_path):
     vectors = vectorize_text(text_content)
     upload_vectors(index, vectors)
 
-
 def main(pdf_directory):
     """Main function to process all PDFs in the directory."""
     for root, dirs, files in os.walk(pdf_directory):
@@ -98,7 +102,6 @@ def main(pdf_directory):
                 file_path = os.path.join(root, file)
                 print(f"Processing: {file_path}")
                 process_pdf(file_path)
-
 
 if __name__ == "__main__":
     pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_L-Z\Rune Magic'  # Change this to the directory containing your PDFs
