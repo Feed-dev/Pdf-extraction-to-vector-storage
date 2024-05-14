@@ -64,7 +64,7 @@ def chunk_text(text, chunk_size=500):
 
 def vectorize_text(text_chunks):
     """Vectorize the text chunks using Cohere embeddings."""
-    return [(f"{chunk_id}", embeddings.embed_query(chunk)) for chunk_id, chunk in text_chunks]
+    return [(chunk_id, embeddings.embed_query(chunk), metadata) for chunk_id, chunk, metadata in text_chunks]
 
 
 def upload_vectors(index, vector_data):
