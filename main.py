@@ -113,5 +113,5 @@ def main(pdf_directory):
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_L-Z\Rune Magic'  # Change this to the directory containing your PDFs
+    pdf_directory = r'F:\Great_Library_L-Z\Rune Magic'  # Change this to the directory containing your PDFs
     main(pdf_directory)
