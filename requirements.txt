@@ -6,3 +6,4 @@ cohere~=5.3.4
 pinecone-client~=4.0.0
 python-dotenv~=1.0.1
 langchain-community~=0.0.36
+transformers~=4.41.2
