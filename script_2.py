@@ -3,7 +3,6 @@ import pytesseract
 from PIL import Image
 import os
 import spacy
-from transformers import pipeline  # Import the summarization pipeline
 from pinecone import Pinecone, ServerlessSpec
 from langchain_cohere import CohereEmbeddings
 from dotenv import load_dotenv
@@ -24,9 +23,6 @@ nlp = spacy.load("en_core_web_sm")
 # Initialize Cohere embeddings
 embeddings = CohereEmbeddings(model="embed-multilingual-v3.0")
 
-# Initialize summarization pipeline
-summarizer = pipeline("summarization")  # Initialize the summarization pipeline
-
 # Pinecone initialization
 pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
 
@@ -36,7 +32,7 @@ if index_name not in pc.list_indexes().names():
         name=index_name,
         dimension=1024,  # Make sure this matches your embeddings' dimension
         metric='cosine',
-        metadata_config={'indexed': ['file', 'page', 'map', 'summary']},  # Include 'summary' in the indexed metadata
+        metadata_config={'indexed': ['file', 'page', 'map']},  # Include only essential fields
         spec=ServerlessSpec(cloud='aws', region='us-east-1')
     )
 index = pc.Index(index_name)
@@ -67,25 +63,10 @@ def chunk_text(text, chunk_size=500):
     return [" ".join(words[i:i + chunk_size]) for i in range(0, len(words), chunk_size)]
 
 
-def generate_summary(text):
-    """Generate a condensed summary of the text using the summarization pipeline."""
-    summary = summarizer(text, max_length=50, min_length=25, do_sample=False)[0]['summary_text']
-    return summary
-
-
 def vectorize_text(text_chunks, file_path, page_num, map_name):
     """Vectorize the text chunks using Cohere embeddings and add minimal metadata."""
     return [
-        (
-            f"{file_path}_page_{page_num}_chunk_{i}",
-            embeddings.embed_query(chunk),
-            {
-                "file": file_path,
-                "page": page_num,
-                "map": map_name,
-                "summary": generate_summary(chunk)  # Generate and include summary in metadata
-            }
-        )
+        (f"{file_path}_page_{page_num}_chunk_{i}", embeddings.embed_query(chunk), {"file": file_path, "page": page_num, "map": map_name})
         for i, chunk in enumerate(text_chunks)
     ]
 
@@ -130,5 +111,5 @@ def main(pdf_directory):
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\Great_Library_L-Z\Rune Magic'  # Change this to the directory containing your PDFs
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Astrology'  # Change this to the directory containing your PDFs
     main(pdf_directory)
