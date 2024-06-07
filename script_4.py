@@ -32,7 +32,7 @@ if index_name not in pc.list_indexes().names():
         name=index_name,
         dimension=1024,  # Make sure this matches your embeddings' dimension
         metric='cosine',
-        metadata_config={'indexed': ['file', 'page', 'map', 'alignment', 'goal', 'purpose', 'tradition']},  # Include additional fields
+        metadata_config={'indexed': ['file', 'page', 'map', 'alignment', 'goal', 'purpose', 'tradition', 'practices']},  # Include additional fields
         spec=ServerlessSpec(cloud='aws', region='us-east-1')
     )
 index = pc.Index(index_name)
@@ -63,7 +63,7 @@ def chunk_text(text, chunk_size=500):
     return [" ".join(words[i:i + chunk_size]) for i in range(0, len(words), chunk_size)]
 
 
-def vectorize_text(text_chunks, file_name, page_num, map_name, alignment, goal, purpose, tradition):
+def vectorize_text(text_chunks, file_name, page_num, map_name, alignment, goal, purpose, tradition, practices):
     """Vectorize the text chunks using Cohere embeddings and add minimal metadata."""
     return [
         (f"{file_name}_page_{page_num}_chunk_{i}", embeddings.embed_query(chunk), {
@@ -73,7 +73,8 @@ def vectorize_text(text_chunks, file_name, page_num, map_name, alignment, goal, 
             "alignment": alignment,
             "goal": goal,
             "purpose": purpose,
-            "tradition": tradition
+            "tradition": tradition,
+            "practices": practices
         })
         for i, chunk in enumerate(text_chunks)
     ]
@@ -94,7 +95,7 @@ def batch_upload_vectors(index, vector_data, namespace, batch_size=100):
         index.upsert(vectors=upserts, namespace=namespace)
 
 
-def process_pdf(file_path, map_name, namespace, alignment, goal, purpose, tradition):
+def process_pdf(file_path, map_name, namespace, alignment, goal, purpose, tradition, practices):
     """Process each PDF, extracting, preprocessing, chunking, and vectorizing text from each page, then upload to Pinecone."""
     file_name = os.path.splitext(os.path.basename(file_path))[0]  # Extract file name without path and extension
     doc = fitz.open(file_path)
@@ -103,12 +104,12 @@ def process_pdf(file_path, map_name, namespace, alignment, goal, purpose, tradit
         page_text = extract_text_from_page(page)
         processed_text = preprocess_text(page_text)
         chunks = chunk_text(processed_text)
-        vectors = vectorize_text(chunks, file_name, page_num, map_name, alignment, goal, purpose, tradition)
+        vectors = vectorize_text(chunks, file_name, page_num, map_name, alignment, goal, purpose, tradition, practices)
         batch_upload_vectors(index, vectors, namespace)
     doc.close()
 
 
-def main(pdf_directory, namespace, alignment, goal, purpose, tradition):
+def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices):
     """Main function to process all PDFs in the directory."""
     for root, dirs, files in os.walk(pdf_directory):
         map_name = os.path.basename(root)  # Extract map name from directory structure
@@ -116,14 +117,15 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition):
             if file.endswith('.pdf'):
                 file_path = os.path.join(root, file)
                 print(f"Processing: {file_path}")
-                process_pdf(file_path, map_name, namespace, alignment, goal, purpose, tradition)
+                process_pdf(file_path, map_name, namespace, alignment, goal, purpose, tradition, practices)
 
 
 if __name__ == "__main__":
     pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Astrology'  # Change this to the directory containing your PDFs
-    namespace = "astrology"  # use the namespace provided by the user
-    alignment = "zodiac sign traits, cosmic energies, moral alignment, lawful good, chaotic evil, true nature, purpose"  # set alignment metadata
-    goal = "self-understanding, wise decisions, align actions, true purpose, career, relationships, personal growth, realistic goals, zodiac sign strengths, challenges"  # set goal metadata
-    purpose = "life path, celestial bodies at birth, self-discovery, personality insights, potential, life purpose, explain personality types, tendencies, decision-making, fulfilling life, meaningful life, true self"  # set purpose metadata
-    tradition = "ancient, extra-scientific knowledge, mythology, cosmic nature of being, Mesopotamia, 19th-17th century BCE, Ancient Greece, Rome, Islamic world, Europe, traditional astrology, prediction, modern astrology, explanation, self-actualization, core principles, 12 zodiac signs, planets, houses"  # set tradition metadata
-    main(pdf_directory, namespace, alignment, goal, purpose, tradition)
+    namespace = "astrology"  # Use the namespace provided by the user
+    alignment = "good"  # Example alignment metadata
+    goal = "education"  # Example goal metadata
+    purpose = "research"  # Example purpose metadata
+    tradition = "western"  # Example tradition metadata
+    practices = "meditation"  # Example practices metadata
+    main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
