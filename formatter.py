@@ -1,14 +1,14 @@
 input_text = """
 Astrology
-alignment: zodiac sign traits, cosmic energies, moral alignment, lawful good, chaotic evil, true nature, purpose
-goal: self-understanding, wise decisions, align actions, true purpose, career, relationships, personal growth, realistic goals, zodiac sign strengths, challenges
-purpose: life path, celestial bodies at birth, self-discovery, personality insights, potential, life purpose, explain personality types, tendencies, decision-making, fulfilling life, meaningful life, true self
-tradition: ancient, extra-scientific knowledge, mythology, cosmic nature of being, Mesopotamia, 19th-17th century BCE, Ancient Greece, Rome, Islamic world, Europe, traditional astrology, prediction, modern astrology, explanation, self-actualization, core principles, 12 zodiac signs, planets, houses
-practices: birth chart analysis, horoscope readings, zodiac sign analysis, planetary aspects and transits, house systems
+Alignment: cosmos, celestial bodies, zodiac, constellations, ecliptic, seasons
+Goal: self-understanding, personality insights, life guidance, decision-making, timing
+Purpose: meaning, patterns, cycles, archetypes, mythology, symbolism, synchronicity
+Tradition: ancient, Babylonian, Hellenistic, Vedic, Western, Chinese, Mesoamerican
+Practices: horoscope, natal chart, zodiac signs, planetary movements, astrological readings
 """
 
 
-# Function to format the input text
+# Function to format the input text and convert to lowercase
 def format_text(input_text):
     lines = input_text.strip().split('\n')
     namespace = lines[0].lower()
@@ -16,8 +16,8 @@ def format_text(input_text):
 
     for line in lines[1:]:
         key, value = line.split(': ')
-        key = key.strip()
-        value = ' '.join(value.split(', ')).strip()
+        key = key.strip().lower()
+        value = ' '.join(value.lower().split(', ')).strip()
         formatted_output += f'{key} = "{value}"\n'
 
     return formatted_output
