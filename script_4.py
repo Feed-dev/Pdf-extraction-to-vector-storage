@@ -32,7 +32,7 @@ if index_name not in pc.list_indexes().names():
         name=index_name,
         dimension=1024,  # Make sure this matches your embeddings' dimension
         metric='cosine',
-        metadata_config={'indexed': ['file', 'page', 'map']},  # Include only essential fields
+        metadata_config={'indexed': ['file', 'page', 'map', 'alignment', 'goal', 'purpose', 'tradition']},  # Include additional fields
         spec=ServerlessSpec(cloud='aws', region='us-east-1')
     )
 index = pc.Index(index_name)
@@ -63,10 +63,18 @@ def chunk_text(text, chunk_size=500):
     return [" ".join(words[i:i + chunk_size]) for i in range(0, len(words), chunk_size)]
 
 
-def vectorize_text(text_chunks, file_name, page_num, map_name):
+def vectorize_text(text_chunks, file_name, page_num, map_name, alignment, goal, purpose, tradition):
     """Vectorize the text chunks using Cohere embeddings and add minimal metadata."""
     return [
-        (f"{file_name}_page_{page_num}_chunk_{i}", embeddings.embed_query(chunk), {"file": file_name, "page": page_num, "map": map_name})
+        (f"{file_name}_page_{page_num}_chunk_{i}", embeddings.embed_query(chunk), {
+            "file": file_name,
+            "page": page_num,
+            "map": map_name,
+            "alignment": alignment,
+            "goal": goal,
+            "purpose": purpose,
+            "tradition": tradition
+        })
         for i, chunk in enumerate(text_chunks)
     ]
 
@@ -86,7 +94,7 @@ def batch_upload_vectors(index, vector_data, namespace, batch_size=100):
         index.upsert(vectors=upserts, namespace=namespace)
 
 
-def process_pdf(file_path, map_name, namespace):
+def process_pdf(file_path, map_name, namespace, alignment, goal, purpose, tradition):
     """Process each PDF, extracting, preprocessing, chunking, and vectorizing text from each page, then upload to Pinecone."""
     file_name = os.path.splitext(os.path.basename(file_path))[0]  # Extract file name without path and extension
     doc = fitz.open(file_path)
@@ -95,12 +103,12 @@ def process_pdf(file_path, map_name, namespace):
         page_text = extract_text_from_page(page)
         processed_text = preprocess_text(page_text)
         chunks = chunk_text(processed_text)
-        vectors = vectorize_text(chunks, file_name, page_num, map_name)
+        vectors = vectorize_text(chunks, file_name, page_num, map_name, alignment, goal, purpose, tradition)
         batch_upload_vectors(index, vectors, namespace)
     doc.close()
 
 
-def main(pdf_directory, namespace):
+def main(pdf_directory, namespace, alignment, goal, purpose, tradition):
     """Main function to process all PDFs in the directory."""
     for root, dirs, files in os.walk(pdf_directory):
         map_name = os.path.basename(root)  # Extract map name from directory structure
@@ -108,10 +116,14 @@ def main(pdf_directory, namespace):
             if file.endswith('.pdf'):
                 file_path = os.path.join(root, file)
                 print(f"Processing: {file_path}")
-                process_pdf(file_path, map_name, namespace)
+                process_pdf(file_path, map_name, namespace, alignment, goal, purpose, tradition)
 
 
 if __name__ == "__main__":
     pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Astrology'  # Change this to the directory containing your PDFs
-    namespace = "astrology"  # Use the namespace provided by the user
-    main(pdf_directory, namespace)
+    namespace = "astrology"  # use the namespace provided by the user
+    alignment = "good"  # set alignment metadata
+    goal = "education"  # set goal metadata
+    purpose = "research"  # set purpose metadata
+    tradition = "Babylonian Hellenistic Vedic Chinese Western"  # set tradition metadata
+    main(pdf_directory, namespace, alignment, goal, purpose, tradition)
