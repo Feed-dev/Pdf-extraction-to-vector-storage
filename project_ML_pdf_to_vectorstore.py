@@ -123,10 +123,10 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 if __name__ == "__main__":
     pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Astrology'  # Change this to the directory containing your PDFs
-    namespace = "astrology"  # Use the namespace provided by the user
-    alignment = "good"  # Example alignment metadata
-    goal = "education"  # Example goal metadata
-    purpose = "research"  # Example purpose metadata
-    tradition = "western"  # Example tradition metadata
-    practices = "meditation"  # Example practices metadata
+    namespace = "astrology"
+    alignment = "zodiac sign traits cosmic energies moral alignment lawful good chaotic evil true nature purpose"
+    goal = "self-understanding wise decisions align actions true purpose career relationships personal growth realistic goals zodiac sign strengths challenges"
+    purpose = "life path celestial bodies at birth self-discovery personality insights potential life purpose explain personality types tendencies decision-making fulfilling life meaningful life true self"
+    tradition = "ancient extra-scientific knowledge mythology cosmic nature of being Mesopotamia 19th-17th century BCE Ancient Greece Rome Islamic world Europe traditional astrology prediction modern astrology explanation self-actualization core principles 12 zodiac signs planets houses"
+    practices = "birth chart analysis horoscope readings zodiac sign analysis planetary aspects and transits house systems"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
