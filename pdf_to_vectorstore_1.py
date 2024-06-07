@@ -1,3 +1,4 @@
+# The first script was lacking metadata.
 import fitz  # PyMuPDF
 import pytesseract
 from PIL import Image

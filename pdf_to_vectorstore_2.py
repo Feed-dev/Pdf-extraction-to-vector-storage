@@ -1,3 +1,4 @@
+# The second script has metadata added to the Pinecone index.
 import fitz  # PyMuPDF
 import pytesseract
 from PIL import Image

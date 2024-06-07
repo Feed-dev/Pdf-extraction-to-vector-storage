@@ -1,3 +1,4 @@
+# The third also has a namespace added as well as the metadata.
 import fitz  # PyMuPDF
 import pytesseract
 from PIL import Image

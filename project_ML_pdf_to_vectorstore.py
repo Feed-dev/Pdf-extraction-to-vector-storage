@@ -1,3 +1,4 @@
+# This script is the feeder for my own project vectorizing PDFs and uploading them to Pinecone.
 import fitz  # PyMuPDF
 import pytesseract
 from PIL import Image
