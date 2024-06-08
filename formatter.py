@@ -1,10 +1,10 @@
 input_text = """
-Astrology
-Alignment: cosmos, celestial bodies, zodiac, constellations, ecliptic, seasons
-Goal: self-understanding, personality insights, life guidance, decision-making, timing
-Purpose: meaning, patterns, cycles, archetypes, mythology, symbolism, synchronicity
-Tradition: ancient, Babylonian, Hellenistic, Vedic, Western, Chinese, Mesoamerican
-Practices: horoscope, natal chart, zodiac signs, planetary movements, astrological readings
+Mantak Chia
+Alignment: Taoism, inner alchemy, microcosmic orbit, energy cultivation, three treasures, five elements
+Goal: self-healing, vitality, longevity, spiritual development, enlightenment, immortality, cosmic unity
+Purpose: harmonize body-mind-spirit, transform negative emotions, open energy channels, develop soul and spirit bodies
+Tradition: Taoist yoga, qigong, tai chi, iron shirt, healing love, fusion, kan and li, ancient Chinese practices
+Practices: inner smile, six healing sounds, microcosmic orbit, iron shirt qigong, healing love, fusion meditations, kan and li, tai chi, chi nei tsang, cosmic healing
 """
 
 
