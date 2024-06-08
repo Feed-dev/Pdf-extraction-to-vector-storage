@@ -122,11 +122,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Astrology'  # Change this to the directory containing your PDFs
-    namespace = "astrology"
-    alignment = "cosmos celestial bodies zodiac constellations ecliptic seasons"
-    goal = "self-understanding personality insights life guidance decision-making timing"
-    purpose = "meaning patterns cycles archetypes mythology symbolism synchronicity"
-    tradition = "ancient babylonian hellenistic vedic western chinese mesoamerican"
-    practices = "horoscope natal chart zodiac signs planetary movements astrological readings"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_L-Z\Mantak Chia'  # Change this to the directory containing your PDFs
+    namespace = "mantak chia"
+    alignment = "taoism inner alchemy microcosmic orbit energy cultivation three treasures five elements"
+    goal = "self-healing vitality longevity spiritual development enlightenment immortality cosmic unity"
+    purpose = "harmonize body-mind-spirit transform negative emotions open energy channels develop soul and spirit bodies"
+    tradition = "taoist yoga qigong tai chi iron shirt healing love fusion kan and li ancient chinese practices"
+    practices = "inner smile six healing sounds microcosmic orbit iron shirt qigong healing love fusion meditations kan and li tai chi chi nei tsang cosmic healing"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
