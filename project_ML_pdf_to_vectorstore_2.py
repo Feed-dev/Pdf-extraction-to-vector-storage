@@ -1,4 +1,5 @@
 # This script is the feeder for my own project vectorizing PDFs and uploading them to Pinecone.
+# Added more error handling for unreadable pdf's.
 import fitz  # PyMuPDF
 import pytesseract
 from PIL import Image
@@ -41,14 +42,18 @@ index = pc.Index(index_name)
 
 def extract_text_from_page(page):
     """Extract text from a given page object."""
-    text = page.get_text()
-    if text.strip():  # If there's text, it's not a scan
-        return text
-    else:  # If no text, it's likely a scan
-        pix = page.get_pixmap()
-        img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
-        text = pytesseract.image_to_string(img)
-        return text
+    try:
+        text = page.get_text()
+        if text.strip():  # If there's text, it's not a scan
+            return text
+        else:  # If no text, it's likely a scan
+            pix = page.get_pixmap()
+            img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+            text = pytesseract.image_to_string(img)
+            return text
+    except Exception as e:
+        print(f"Error extracting text from page: {e}")
+        return ""
 
 
 def preprocess_text(text):
@@ -104,6 +109,9 @@ def process_pdf(file_path, map_name, namespace, alignment, goal, purpose, tradit
         for page_num in range(len(doc)):
             page = doc.load_page(page_num)
             page_text = extract_text_from_page(page)
+            if not page_text.strip():
+                print(f"Warning: No text extracted from page {page_num} of {file_path}")
+                continue
             processed_text = preprocess_text(page_text)
             chunks = chunk_text(processed_text)
             vectors = vectorize_text(chunks, file_name, page_num, map_name, alignment, goal, purpose, tradition, practices)
@@ -111,6 +119,8 @@ def process_pdf(file_path, map_name, namespace, alignment, goal, purpose, tradit
         doc.close()
     except fitz.FileDataError as e:
         print(f"Failed to open file {file_path}: {e}")
+    except Exception as e:
+        print(f"Error processing file {file_path}: {e}")
 
 
 def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices):
