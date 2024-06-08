@@ -1,4 +1,4 @@
-# The third also has a namespace added as well as the metadata.
+# Has a namespace added as well as the basic pdf metadata.
 import fitz  # PyMuPDF
 import pytesseract
 from PIL import Image
@@ -33,7 +33,7 @@ if index_name not in pc.list_indexes().names():
         name=index_name,
         dimension=1024,  # Make sure this matches your embeddings' dimension
         metric='cosine',
-        metadata_config={'indexed': ['file', 'page', 'map']},  # Include only essential fields
+        metadata_config={'indexed': ['file', 'page', 'map']},  # Include additional fields
         spec=ServerlessSpec(cloud='aws', region='us-east-1')
     )
 index = pc.Index(index_name)
@@ -41,14 +41,18 @@ index = pc.Index(index_name)
 
 def extract_text_from_page(page):
     """Extract text from a given page object."""
-    text = page.get_text()
-    if text.strip():  # If there's text, it's not a scan
-        return text
-    else:  # If no text, it's likely a scan
-        pix = page.get_pixmap()
-        img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
-        text = pytesseract.image_to_string(img)
-        return text
+    try:
+        text = page.get_text()
+        if text.strip():  # If there's text, it's not a scan
+            return text
+        else:  # If no text, it's likely a scan
+            pix = page.get_pixmap()
+            img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+            text = pytesseract.image_to_string(img)
+            return text
+    except Exception as e:
+        print(f"Error extracting text from page: {e}")
+        return ""
 
 
 def preprocess_text(text):
@@ -64,10 +68,14 @@ def chunk_text(text, chunk_size=500):
     return [" ".join(words[i:i + chunk_size]) for i in range(0, len(words), chunk_size)]
 
 
-def vectorize_text(text_chunks, file_path, page_num, map_name):
+def vectorize_text(text_chunks, file_name, page_num, map_name):
     """Vectorize the text chunks using Cohere embeddings and add minimal metadata."""
     return [
-        (f"{file_path}_page_{page_num}_chunk_{i}", embeddings.embed_query(chunk), {"file": file_path, "page": page_num, "map": map_name})
+        (f"{file_name}_page_{page_num}_chunk_{i}", embeddings.embed_query(chunk), {
+            "file": file_name,
+            "page": page_num,
+            "map": map_name
+        })
         for i, chunk in enumerate(text_chunks)
     ]
 
@@ -89,15 +97,24 @@ def batch_upload_vectors(index, vector_data, namespace, batch_size=100):
 
 def process_pdf(file_path, map_name, namespace):
     """Process each PDF, extracting, preprocessing, chunking, and vectorizing text from each page, then upload to Pinecone."""
-    doc = fitz.open(file_path)
-    for page_num in range(len(doc)):
-        page = doc.load_page(page_num)
-        page_text = extract_text_from_page(page)
-        processed_text = preprocess_text(page_text)
-        chunks = chunk_text(processed_text)
-        vectors = vectorize_text(chunks, file_path, page_num, map_name)
-        batch_upload_vectors(index, vectors, namespace)
-    doc.close()
+    try:
+        file_name = os.path.splitext(os.path.basename(file_path))[0]  # Extract file name without path and extension
+        doc = fitz.open(file_path)
+        for page_num in range(len(doc)):
+            page = doc.load_page(page_num)
+            page_text = extract_text_from_page(page)
+            if not page_text.strip():
+                print(f"Warning: No text extracted from page {page_num} of {file_path}")
+                continue
+            processed_text = preprocess_text(page_text)
+            chunks = chunk_text(processed_text)
+            vectors = vectorize_text(chunks, file_name, page_num, map_name)
+            batch_upload_vectors(index, vectors, namespace)
+        doc.close()
+    except fitz.FileDataError as e:
+        print(f"Failed to open file {file_path}: {e}")
+    except Exception as e:
+        print(f"Error processing file {file_path}: {e}")
 
 
 def main(pdf_directory, namespace):
@@ -112,6 +129,6 @@ def main(pdf_directory, namespace):
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Astrology'  # Change this to the directory containing your PDFs
-    namespace = "astrology"  # Use the namespace provided by the user
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_H-K\Hermeticism'  # Change this to the directory containing your PDFs
+    namespace = "hermes trismegistus"
     main(pdf_directory, namespace)
