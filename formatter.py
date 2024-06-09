@@ -1,10 +1,10 @@
 input_text = """
-parapsychology
-Alignment: parapsychology, psychical research, anomalous experiences, altered states of consciousness, spiritualism
-Goal: investigate paranormal phenomena, explore the nature of consciousness, expand scientific understanding, challenge materialist paradigms
-Purpose: document evidence of psi, develop theories and models, refine methodologies, educate the public, advance the field
-Tradition: 19th century origins, Society for Psychical Research, J.B. Rhine and experimental parapsychology, survival research, skeptic/proponent dialogue
-Practices: case studies, field investigations, experimental testing, statistical analysis, qualitative approaches, theoretical discourse, peer-reviewed journals
+Companions of the Stone
+Alignment: Western esotericism, Hermeticism, Rosicrucianism, Freemasonry, ceremonial magic, Kabbalah, alchemy
+Goal: spiritual enlightenment, self-realization, attainment of divine wisdom, unity with the divine, personal transformation
+Purpose: study and practice of occult sciences, preservation of esoteric knowledge, initiation into mysteries, development of magical abilities
+Tradition: ancient mystery schools, Neoplatonism, Renaissance magic, Rosicrucian manifestos, Freemasonry, 1800s occult revival
+Practices: ritual magic, invocation, evocation, divination, astrology, tarot, geomancy, skrying, pathworking, grade initiations, lodge work
 """
 
 

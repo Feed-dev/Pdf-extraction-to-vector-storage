@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Classic Psi Literature'  # Change this to the directory containing your PDFs
-    namespace = "parapsychology"
-    alignment = "parapsychology psychical research anomalous experiences altered states consciousness spiritualism"
-    goal = "investigate paranormal phenomena explore nature consciousness expand scientific understanding challenge materialist paradigms"
-    purpose = "document evidence psi develop theories models refine methodologies educate public advance field"
-    tradition = "19th century origins society psychical research j.b. rhine experimental parapsychology survival research skeptic proponent dialogue"
-    practices = "case studies field investigations experimental testing statistical analysis qualitative approaches theoretical discourse peer-reviewed journals"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Companions of the Stone Archive'  # Change this to the directory containing your PDFs
+    namespace = "companions of the stone"
+    alignment = "western esotericism hermeticism rosicrucianism freemasonry ceremonial magic kabbalah alchemy"
+    goal = "spiritual enlightenment self-realization attainment divine wisdom unity divine personal transformation"
+    purpose = "study practice occult sciences preservation esoteric knowledge initiation mysteries development magical abilities"
+    tradition = "ancient mystery schools neoplatonism renaissance magic rosicrucian manifestos freemasonry 1800s occult revival"
+    practices = "ritual magic invocation evocation divination astrology tarot geomancy skrying pathworking grade initiations lodge work"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
