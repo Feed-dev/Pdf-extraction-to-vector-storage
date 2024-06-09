@@ -1,10 +1,10 @@
 input_text = """
-Hermes Trismegistus
-Alignment: Hellenistic philosophy, Neoplatonism, Gnosticism, Egyptian mysticism, esotericism, occultism
-Goal: spiritual enlightenment, self-knowledge, unity with the divine, transmutation, immortality, cosmic understanding
-Purpose: attain gnosis, uncover hidden wisdom, harmonize man and cosmos, perfect the soul, achieve salvation
-Tradition: Corpus Hermeticum, Asclepius, Emerald Tablet, prisca theologia, perennial philosophy, Renaissance revival
-Practices: alchemy, astrology, theurgy, magic, meditation, initiation rites, symbolic interpretation, correspondences
+Ordo Templi Orientis
+Alignment: occultism, Western esotericism, Thelema, Freemasonry, Rosicrucianism, Illuminism
+Goal: spiritual enlightenment, self-realization, liberty of the individual, advancement in light/life/love
+Purpose: preserve occult knowledge, confer initiations, promulgate Thelema, facilitate personal transformation
+Tradition: founded early 20th century, Theodor Reuss, Aleister Crowley, ceremonial magic, fraternal order
+Practices: graded initiations, ritual drama, Gnostic Mass, study of Hermetic sciences, yoga, sexual magic
 """
 
 

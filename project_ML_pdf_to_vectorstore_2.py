@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_H-K\Hermeticism'  # Change this to the directory containing your PDFs
-    namespace = "hermes trismegistus"
-    alignment = "hellenistic philosophy neoplatonism gnosticism egyptian mysticism esotericism occultism"
-    goal = "spiritual enlightenment self-knowledge unity with the divine transmutation immortality cosmic understanding"
-    purpose = "attain gnosis uncover hidden wisdom harmonize man and cosmos perfect the soul achieve salvation"
-    tradition = "corpus hermeticum asclepius emerald tablet prisca theologia perennial philosophy renaissance revival"
-    practices = "alchemy astrology theurgy magic meditation initiation rites symbolic interpretation correspondences"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_L-Z\Philosophy'  # Change this to the directory containing your PDFs
+    namespace = "metaphysics"
+    alignment = "fundamental reality being philosophy principles ultimate causes universal truths"
+    goal = "understand nature existence explore structure reality uncover essence things"
+    purpose = "provide foundation knowledge guide philosophical scientific inquiry contemplate meaning being"
+    tradition = "philosophy ancient greek origins aristotelian platonic schools medieval scholasticism german idealism contemporary analytic continental approaches"
+    practices = "ontological investigation logical reasoning conceptual analysis thought experiments linguistic scientific considerations speculative theorizing"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
