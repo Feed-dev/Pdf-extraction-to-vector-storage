@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_L-Z\Philosophy'  # Change this to the directory containing your PDFs
-    namespace = "metaphysics"
-    alignment = "fundamental reality being philosophy principles ultimate causes universal truths"
-    goal = "understand nature existence explore structure reality uncover essence things"
-    purpose = "provide foundation knowledge guide philosophical scientific inquiry contemplate meaning being"
-    tradition = "philosophy ancient greek origins aristotelian platonic schools medieval scholasticism german idealism contemporary analytic continental approaches"
-    practices = "ontological investigation logical reasoning conceptual analysis thought experiments linguistic scientific considerations speculative theorizing"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Alchemy'  # Change this to the directory containing your PDFs
+    namespace = "alchemy"
+    alignment = "speculative thought astrology cosmology natural philosophy esotericism occultism"
+    goal = "transmute metals gold discover elixir life uncover relationship cosmos"
+    purpose = "exploit cosmic influences human benefit attain knowledge perfection achieve spiritual enlightenment"
+    tradition = "ancient origins hellenistic egypt islamic world medieval europe renaissance hermeticism early modern period"
+    practices = "transmutation distillation calcination sublimation dissolution coagulation fermentation symbolic interpretation experimentation"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)

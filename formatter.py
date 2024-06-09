@@ -1,10 +1,10 @@
 input_text = """
-Ordo Templi Orientis
-Alignment: occultism, Western esotericism, Thelema, Freemasonry, Rosicrucianism, Illuminism
-Goal: spiritual enlightenment, self-realization, liberty of the individual, advancement in light/life/love
-Purpose: preserve occult knowledge, confer initiations, promulgate Thelema, facilitate personal transformation
-Tradition: founded early 20th century, Theodor Reuss, Aleister Crowley, ceremonial magic, fraternal order
-Practices: graded initiations, ritual drama, Gnostic Mass, study of Hermetic sciences, yoga, sexual magic
+Alchemy
+Alignment: speculative thought, astrology, cosmology, natural philosophy, esotericism, occultism
+Goal: transmute base metals into gold/silver, discover elixir of life, uncover relationship of man to cosmos
+Purpose: exploit cosmic influences for human benefit, attain knowledge and perfection, achieve spiritual enlightenment
+Tradition: ancient origins, Hellenistic Egypt, Islamic world, medieval Europe, Renaissance Hermeticism, early modern period
+Practices: transmutation, distillation, calcination, sublimation, dissolution, coagulation, fermentation, symbolic interpretation, experimentation
 """
 
 
