@@ -1,10 +1,10 @@
 input_text = """
-mystics
-Alignment: spirituality, holistic health, mind-body-spirit connection, higher self, soul growth
-Goal: self-discovery, self-mastery, spiritual enlightenment, living in alignment with purpose, elevating consciousness
-Purpose: provide psychic readings, offer guidance and wisdom, promote spiritual growth, heal mind and body
-Tradition: Christian mysticism, Theosophy, New Thought, Akashic records, reincarnation, karma
-Practices: meditation, dream interpretation, holistic nutrition, attunement of mind-body-spirit, readings in trance state
+parapsychology
+Alignment: parapsychology, psychical research, anomalous experiences, altered states of consciousness, spiritualism
+Goal: investigate paranormal phenomena, explore the nature of consciousness, expand scientific understanding, challenge materialist paradigms
+Purpose: document evidence of psi, develop theories and models, refine methodologies, educate the public, advance the field
+Tradition: 19th century origins, Society for Psychical Research, J.B. Rhine and experimental parapsychology, survival research, skeptic/proponent dialogue
+Practices: case studies, field investigations, experimental testing, statistical analysis, qualitative approaches, theoretical discourse, peer-reviewed journals
 """
 
 
