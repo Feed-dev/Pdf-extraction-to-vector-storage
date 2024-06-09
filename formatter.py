@@ -1,10 +1,10 @@
 input_text = """
-Alchemy
-Alignment: speculative thought, astrology, cosmology, natural philosophy, esotericism, occultism
-Goal: transmute base metals into gold/silver, discover elixir of life, uncover relationship of man to cosmos
-Purpose: exploit cosmic influences for human benefit, attain knowledge and perfection, achieve spiritual enlightenment
-Tradition: ancient origins, Hellenistic Egypt, Islamic world, medieval Europe, Renaissance Hermeticism, early modern period
-Practices: transmutation, distillation, calcination, sublimation, dissolution, coagulation, fermentation, symbolic interpretation, experimentation
+mystics
+Alignment: spirituality, holistic health, mind-body-spirit connection, higher self, soul growth
+Goal: self-discovery, self-mastery, spiritual enlightenment, living in alignment with purpose, elevating consciousness
+Purpose: provide psychic readings, offer guidance and wisdom, promote spiritual growth, heal mind and body
+Tradition: Christian mysticism, Theosophy, New Thought, Akashic records, reincarnation, karma
+Practices: meditation, dream interpretation, holistic nutrition, attunement of mind-body-spirit, readings in trance state
 """
 
 
