@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Companions of the Stone Archive'  # Change this to the directory containing your PDFs
-    namespace = "companions of the stone"
-    alignment = "western esotericism hermeticism rosicrucianism freemasonry ceremonial magic kabbalah alchemy"
-    goal = "spiritual enlightenment self-realization attainment divine wisdom unity divine personal transformation"
-    purpose = "study practice occult sciences preservation esoteric knowledge initiation mysteries development magical abilities"
-    tradition = "ancient mystery schools neoplatonism renaissance magic rosicrucian manifestos freemasonry 1800s occult revival"
-    practices = "ritual magic invocation evocation divination astrology tarot geomancy skrying pathworking grade initiations lodge work"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Crowley Aleister'  # Change this to the directory containing your PDFs
+    namespace = "Aleister Crowley"
+    alignment = "postmodern individualistic pragmatic eclectic anti-dogmatic fluid belief systems"
+    goal = "achieve practical results manifest desires personal empowerment reality manipulation"
+    purpose = "utilize belief tool bypass limitations explore consciousness challenge paradigms"
+    tradition = "1970s austin osman aleister crowley discordianism postmodernism left-hand path chaos magic"
+    practices = "sigil magic servitors gnosis reality shifting paradigm personal rituals psychonautics"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)

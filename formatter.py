@@ -1,10 +1,10 @@
 input_text = """
-Companions of the Stone
-Alignment: Western esotericism, Hermeticism, Rosicrucianism, Freemasonry, ceremonial magic, Kabbalah, alchemy
-Goal: spiritual enlightenment, self-realization, attainment of divine wisdom, unity with the divine, personal transformation
-Purpose: study and practice of occult sciences, preservation of esoteric knowledge, initiation into mysteries, development of magical abilities
-Tradition: ancient mystery schools, Neoplatonism, Renaissance magic, Rosicrucian manifestos, Freemasonry, 1800s occult revival
-Practices: ritual magic, invocation, evocation, divination, astrology, tarot, geomancy, skrying, pathworking, grade initiations, lodge work
+Aleister Crowley
+Alignment: postmodern, individualistic, pragmatic, eclectic, anti-dogmatic, fluid belief systems
+Goal: achieve practical results, manifest desires, personal empowerment, reality manipulation
+Purpose: utilize belief as a tool, bypass limitations, explore consciousness, challenge paradigms
+Tradition: emerged late 20th century, influenced by Austin Osman Spare, Aleister Crowley, discordianism, postmodernism
+Practices: sigil magic, servitors, gnosis, reality shifting, paradigm shifting, personal rituals, psychonautics
 """
 
 
