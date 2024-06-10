@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Crowley, Aleister'  # Change this to the directory containing your PDFs
-    namespace = "aleister crowley"
-    alignment = "thelema western esotericism ceremonial magic occultism mysticism individualism thelema"
-    goal = "discover true will attain knowledge holy guardian angel spiritual enlightenment self-deification"
-    purpose = "religious movement revive magic spiritual discipline synthesize eastern western traditions"
-    tradition = "hermetic order golden dawn ordo templi orientis a∴a∴ aeon of horus thelema british occultism"
-    practices = "ceremonial rituals yoga meditation sex magic astrology tarot qabalah kabbalah alchemy Thelema"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Discordian'  # Change this to the directory containing your PDFs
+    namespace = "discordian"
+    alignment = "chaos disorder strife individualism anti-dogmatism absurdism surrealism"
+    goal = "embrace chaos reality challenge authority creativity seek personal liberation"
+    purpose = "venerate eris goddess discord balance disorder satirize organized religion encourage free"
+    tradition = "1963 principia discordia malaclypse omar khayyam ravenhurst counterculture chaos"
+    practices = "rituals pope cards chaos magic rites discordian joke parody religion"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
