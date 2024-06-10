@@ -1,10 +1,10 @@
 input_text = """
-Discordian
-Alignment: chaos, disorder, strife, individualism, anti-dogmatism, absurdism, surrealism
-Goal: embrace chaos, question reality, challenge authority, promote creativity, seek personal liberation
-Purpose: venerate Eris (goddess of discord), balance order/disorder, satirize organized religion, encourage free thought
-Tradition: founded 1963, Principia Discordia holy book, Malaclypse the Younger and Omar Khayyam Ravenhurst, counterculture
-Practices: irreverent rituals, pope cards, chaos magic, initiation rites, Discordian calendar, joke religion/parody religion
+Ordo Templi Orientis
+Alignment: Thelema, Ordo Templi Orientis, ceremonial magick, Western esotericism, Qabalah, Tarot
+Goal: spiritual enlightenment, self-discovery, understanding True Will, sharing esoteric knowledge
+Purpose: educate others on magick and mysticism, demystify complex concepts, encourage personal exploration
+Tradition: Aleister Crowley's teachings, Hermetic Order of the Golden Dawn, Rosicrucianism, Freemasonry
+Practices: ritual magick, Gnostic Mass, meditation, divination, writing, lecturing, teaching
 """
 
 

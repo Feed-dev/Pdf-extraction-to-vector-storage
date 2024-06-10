@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Discordian'  # Change this to the directory containing your PDFs
-    namespace = "discordian"
-    alignment = "chaos disorder strife individualism anti-dogmatism absurdism surrealism"
-    goal = "embrace chaos reality challenge authority creativity seek personal liberation"
-    purpose = "venerate eris goddess discord balance disorder satirize organized religion encourage free"
-    tradition = "1963 principia discordia malaclypse omar khayyam ravenhurst counterculture chaos"
-    practices = "rituals pope cards chaos magic rites discordian joke parody religion"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\DuQuette, Lon Milo'  # Change this to the directory containing your PDFs
+    namespace = "ordo templi orientis"
+    alignment = "thelema ordo templi orientis ceremonial magick western esotericism qabalah tarot"
+    goal = "spiritual enlightenment self-discovery understanding true will sharing esoteric knowledge"
+    purpose = "educate magick mysticism demystify personal exploration teaching development"
+    tradition = "aleister crowley hermetic order golden dawn rosicrucianism freemasonry"
+    practices = "ritual magick gnostic mass meditation divination writing lecturing teaching"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
