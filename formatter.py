@@ -1,10 +1,10 @@
 input_text = """
-Aleister Crowley
-Alignment: Thelema, Western esotericism, ceremonial magic, occultism, mysticism, individualism
-Goal: discover True Will, attain knowledge and conversation of Holy Guardian Angel, spiritual enlightenment, self-deification
-Purpose: establish new religious movement, revive magic as spiritual discipline, synthesize Eastern and Western traditions
-Tradition: Hermetic Order of the Golden Dawn, Ordo Templi Orientis, A∴A∴, The Book of the Law, Aeon of Horus
-Practices: ceremonial rituals, yoga, meditation, sex magic, astrology, Tarot, Qabalah, alchemy, poetry, mountaineering
+Discordian
+Alignment: chaos, disorder, strife, individualism, anti-dogmatism, absurdism, surrealism
+Goal: embrace chaos, question reality, challenge authority, promote creativity, seek personal liberation
+Purpose: venerate Eris (goddess of discord), balance order/disorder, satirize organized religion, encourage free thought
+Tradition: founded 1963, Principia Discordia holy book, Malaclypse the Younger and Omar Khayyam Ravenhurst, counterculture
+Practices: irreverent rituals, pope cards, chaos magic, initiation rites, Discordian calendar, joke religion/parody religion
 """
 
 
