@@ -135,7 +135,7 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Crowley Aleister'  # Change this to the directory containing your PDFs
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Crowley, Aleister'  # Change this to the directory containing your PDFs
     namespace = "aleister crowley"
     alignment = "thelema western esotericism ceremonial magic occultism mysticism individualism thelema"
     goal = "discover true will attain knowledge holy guardian angel spiritual enlightenment self-deification"
