@@ -1,10 +1,10 @@
 input_text = """
 Aleister Crowley
-Alignment: postmodern, individualistic, pragmatic, eclectic, anti-dogmatic, fluid belief systems
-Goal: achieve practical results, manifest desires, personal empowerment, reality manipulation
-Purpose: utilize belief as a tool, bypass limitations, explore consciousness, challenge paradigms
-Tradition: emerged late 20th century, influenced by Austin Osman Spare, Aleister Crowley, discordianism, postmodernism
-Practices: sigil magic, servitors, gnosis, reality shifting, paradigm shifting, personal rituals, psychonautics
+Alignment: Thelema, Western esotericism, ceremonial magic, occultism, mysticism, individualism
+Goal: discover True Will, attain knowledge and conversation of Holy Guardian Angel, spiritual enlightenment, self-deification
+Purpose: establish new religious movement, revive magic as spiritual discipline, synthesize Eastern and Western traditions
+Tradition: Hermetic Order of the Golden Dawn, Ordo Templi Orientis, A∴A∴, The Book of the Law, Aeon of Horus
+Practices: ceremonial rituals, yoga, meditation, sex magic, astrology, Tarot, Qabalah, alchemy, poetry, mountaineering
 """
 
 
