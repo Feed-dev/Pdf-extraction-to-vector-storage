@@ -135,7 +135,7 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Evocation'  # Change this to the directory containing your PDFs
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Grimoires'  # Change this to the directory containing your PDFs
     namespace = "goetia"
     alignment = "demonology sorcery occultism ceremonial magic western esotericism evocation"
     goal = "summon control demons acquire knowledge power fulfill desires spiritual exploration evocation"
