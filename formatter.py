@@ -1,10 +1,10 @@
 input_text = """
-Ordo Templi Orientis
-Alignment: Thelema, Ordo Templi Orientis, ceremonial magick, Western esotericism, Qabalah, Tarot
-Goal: spiritual enlightenment, self-discovery, understanding True Will, sharing esoteric knowledge
-Purpose: educate others on magick and mysticism, demystify complex concepts, encourage personal exploration
-Tradition: Aleister Crowley's teachings, Hermetic Order of the Golden Dawn, Rosicrucianism, Freemasonry
-Practices: ritual magick, Gnostic Mass, meditation, divination, writing, lecturing, teaching
+Goetia
+Alignment: demonology, sorcery, occultism, ceremonial magic, Western esotericism, evocation
+Goal: summon and control demons, acquire knowledge and power, fulfill desires, spiritual exploration
+Purpose: engage with spiritual entities, explore the psyche, personal transformation, self-empowerment
+Tradition: ancient Greco-Roman magic, medieval grimoires, The Lesser Key of Solomon, occult revival
+Practices: invocation rituals, magic circles, protective evocation, use of seals and sigils, negotiation with spirits
 """
 
 

@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\DuQuette, Lon Milo'  # Change this to the directory containing your PDFs
-    namespace = "ordo templi orientis"
-    alignment = "thelema ordo templi orientis ceremonial magick western esotericism qabalah tarot"
-    goal = "spiritual enlightenment self-discovery understanding true will sharing esoteric knowledge"
-    purpose = "educate magick mysticism demystify personal exploration teaching development"
-    tradition = "aleister crowley hermetic order golden dawn rosicrucianism freemasonry"
-    practices = "ritual magick gnostic mass meditation divination writing lecturing teaching"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Evocation'  # Change this to the directory containing your PDFs
+    namespace = "goetia"
+    alignment = "demonology sorcery occultism ceremonial magic western esotericism evocation"
+    goal = "summon control demons acquire knowledge power fulfill desires spiritual exploration evocation"
+    purpose = "engage spiritual entities explore psyche personal transformation self-empowerment"
+    tradition = "ancient greco-roman magic medieval grimoires lesser key solomon occult revival evocation"
+    practices = "invocation rituals magic circles protective evocation seals sigils negotiation spirits"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
