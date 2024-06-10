@@ -1,10 +1,10 @@
 input_text = """
-Goetia
-Alignment: demonology, sorcery, occultism, ceremonial magic, Western esotericism, evocation
-Goal: summon and control demons, acquire knowledge and power, fulfill desires, spiritual exploration
+Evocation
+Alignment: ceremonial magic, demonology, sorcery, occultism, Western esotericism
+Goal: summon and control spirits, acquire knowledge and power, fulfill desires, spiritual exploration
 Purpose: engage with spiritual entities, explore the psyche, personal transformation, self-empowerment
-Tradition: ancient Greco-Roman magic, medieval grimoires, The Lesser Key of Solomon, occult revival
-Practices: invocation rituals, magic circles, protective evocation, use of seals and sigils, negotiation with spirits
+Tradition: ancient Greco-Roman magic, medieval grimoires, The Lesser Key of Solomon, Goetia
+Practices: invocation rituals, magic circles, protective measures, seals and sigils, negotiation with spirits
 """
 
 
