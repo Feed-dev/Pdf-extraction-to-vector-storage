@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Evocation'  # Change this to the directory containing your PDFs
-    namespace = "evocation"
-    alignment = "ceremonial magic demonology sorcery occultism western esotericism"
-    goal = "summon control spirits acquire knowledge power fulfill desires spiritual exploration"
-    purpose = "engage spiritual entities explore psyche personal transformation self-empowerment"
-    tradition = "ancient greco-roman magic medieval grimoires lesser key solomon goetia"
-    practices = "invocation rituals magic circles protective measures seals sigils negotiation spirits"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Grimoires'  # Change this to the directory containing your PDFs
+    namespace = "grimoires"
+    alignment = "sorcery witchcraft magic deceptive fraudulent heretical pagan"
+    goal = "instruct magical practices summon supernatural entities attain power fulfillment"
+    purpose = "transmit magical knowledge enable casting spells crafting magical objects guide divination"
+    tradition = "ancient mesopotamian egyptian origins hellenistic christian magic attributed solomon"
+    practices = "incantations spells crafting magical objects summoning angels spirits demons divination astrology"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)

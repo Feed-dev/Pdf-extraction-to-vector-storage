@@ -1,10 +1,10 @@
 input_text = """
-Evocation
-Alignment: ceremonial magic, demonology, sorcery, occultism, Western esotericism
-Goal: summon and control spirits, acquire knowledge and power, fulfill desires, spiritual exploration
-Purpose: engage with spiritual entities, explore the psyche, personal transformation, self-empowerment
-Tradition: ancient Greco-Roman magic, medieval grimoires, The Lesser Key of Solomon, Goetia
-Practices: invocation rituals, magic circles, protective measures, seals and sigils, negotiation with spirits
+Grimoires
+Alignment: sorcery, witchcraft, low magic, deceptive, fraudulent, heretical, pagan
+Goal: instruct in magical practices, summon supernatural entities, attain power and fulfillment
+Purpose: transmit magical knowledge, enable casting spells and crafting magical objects, guide divination
+Tradition: ancient Mesopotamian and Egyptian origins, influenced by Hellenistic and early Christian magic, attributed to legendary figures like Solomon
+Practices: incantations, spells, crafting magical objects, summoning angels/spirits/demons, divination, astrology
 """
 
 
