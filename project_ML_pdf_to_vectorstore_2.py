@@ -136,10 +136,10 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 if __name__ == "__main__":
     pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_L-Z\Solomon'  # Change this to the directory containing your PDFs
-    namespace = "solomon"
+    namespace = "key of solomon"
     alignment = "ceremonial magic demonology solomonic magic judeo-christian western esotericism"
-    goal = "invoke and control spirits acquire knowledge and power fulfill desires spiritual attainment"
-    purpose = "provide detailed instructions for magical operations act as a comprehensive guide to ceremonial magic"
-    tradition = "attributed to king solomon influenced by jewish mysticism hermeticism medieval grimoires"
-    practices = "complex rituals consecration of magical tools drawing of magical circles sigils and pentacles prayers and invocations spirit evocation"
+    goal = "invoke control spirits acquire knowledge power fulfill desires spiritual attainment"
+    purpose = "provide detailed instructions magical guide ceremonial magic"
+    tradition = "attributed king solomon influenced jewish mysticism hermeticism medieval grimoires"
+    practices = "rituals consecration magical circles sigils pentacles prayers invocations spirit evocation"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
