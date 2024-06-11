@@ -1,10 +1,10 @@
 input_text = """
-tantra
-Alignment: Aghora, Ayurveda, Tantra, Jyotish, Western esotericism, spiritual alchemy
-Goal: self-realization, spiritual enlightenment, samarasa (equanimity), svatantra (self-functioning), bliss of undifferentiated consciousness
-Purpose: disseminate teachings of Aghora and Tantra, bridge Eastern and Western thought, guide spiritual seekers, promote holistic well-being
-Tradition: mentored by Aghori Vimalananda, influenced by Indian and Western esoteric traditions, Ayurveda, Yoga, Jyotish
-Practices: ritual, mantra, meditation, self-inquiry, extracting rasa (vital essence), navigating personas, intense (ugra) and speedy (shighra) methods
+golden dawn
+Alignment: Western esotericism, Hermeticism, Rosicrucianism, Kabbalah, ceremonial magic, alchemy
+Goal: spiritual enlightenment, self-realization, attainment divine wisdom, unity divine
+Purpose: study practice occult sciences, preservation esoteric knowledge, initiation mysteries
+Tradition: occult revival, Freemasonry, Societas Rosicruciana Anglia, Cipher Manuscripts
+Practices: grade initiations, ritual magic, invocation, divination, astrology, tarot, geomancy, Enochian magic
 """
 
 
