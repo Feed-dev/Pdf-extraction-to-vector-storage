@@ -1,10 +1,10 @@
 input_text = """
-Gnostics
-Alignment: dualism, anti-materialism, hidden knowledge, divine spark, spiritual awakening
-Goal: attain gnosis, reunite divine spark with God, transcend material world, achieve spiritual liberation
-Purpose: expose illusory nature of reality, reveal path to enlightenment, free souls from cycle of reincarnation
-Tradition: syncretic, Judeo-Christian roots, Platonic and Neoplatonic influences, mystery religions, esoteric wisdom
-Practices: ritual, magic, theurgy, liturgy, asceticism, baptism, Eucharist, meditation, mystical union
+rosicrucian
+Alignment: Rosicrucian Christianity, Western esotericism, occultism, mysticism, spiritual science
+Goal: disseminate Rosicrucian teachings, spiritual enlightenment, self-knowledge, service to humanity
+Purpose: establish Rosicrucian Fellowship, present esoteric wisdom in accessible form, promote spiritual healing
+Tradition: Christian Rosenkreuz, Rosicrucian manifestos, Rudolf Steiner, Elder Brothers of Rose Cross
+Practices: study of Rosicrucian Cosmo-Conception, astrology, spiritual healing, esoteric interpretation of Christianity
 """
 
 

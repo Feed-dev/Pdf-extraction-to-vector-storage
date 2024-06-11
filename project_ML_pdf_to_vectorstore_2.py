@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_H-K\Hans Jonas - The Gnostic Religion'  # Change this to the directory containing your PDFs
-    namespace = "gnostics"
-    alignment = "dualism anti-materialism hidden knowledge divine spark spiritual awakening"
-    goal = "attain gnosis reunite divine spark god transcend material world achieve spiritual liberation"
-    purpose = "expose illusory nature reality reveal path enlightenment free souls cycle of reincarnation"
-    tradition = "syncretic judeo-christian roots platonic neoplatonic influences mystery religions esoteric wisdom"
-    practices = "ritual magic theurgy liturgy asceticism baptism eucharist meditation mystical union"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_H-K\Heindel, Max'  # Change this to the directory containing your PDFs
+    namespace = "rosicrucian"
+    alignment = "rosicrucian christianity western esotericism occultism mysticism spiritual science"
+    goal = "disseminate rosicrucian teachings spiritual enlightenment self-knowledge service humanity"
+    purpose = "establish rosicrucian fellowship esoteric wisdom spiritual healing"
+    tradition = "christian rosenkreuz rosicrucian manifestos rudolf steiner elder brothers of rose cross"
+    practices = "study rosicrucian cosmo-conception astrology spiritual healing esoteric christianity"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
