@@ -1,10 +1,10 @@
 input_text = """
-Golden Dawn
-Alignment: Western esotericism, Hermeticism, Rosicrucianism, Kabbalah, ceremonial magic, alchemy
-Goal: spiritual enlightenment, self-realization, attainment of divine wisdom, unity with the divine
-Purpose: study and practice of occult sciences, preservation of esoteric knowledge, initiation into mysteries
-Tradition: 19th-century occult revival, Freemasonry, Societas Rosicruciana in Anglia, Cipher Manuscripts
-Practices: grade initiations, ritual magic, invocation, divination, astrology, tarot, geomancy, Enochian magic
+Gnostics
+Alignment: dualism, anti-materialism, hidden knowledge, divine spark, spiritual awakening
+Goal: attain gnosis, reunite divine spark with God, transcend material world, achieve spiritual liberation
+Purpose: expose illusory nature of reality, reveal path to enlightenment, free souls from cycle of reincarnation
+Tradition: syncretic, Judeo-Christian roots, Platonic and Neoplatonic influences, mystery religions, esoteric wisdom
+Practices: ritual, magic, theurgy, liturgy, asceticism, baptism, Eucharist, meditation, mystical union
 """
 
 

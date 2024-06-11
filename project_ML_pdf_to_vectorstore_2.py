@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Etc'  # Change this to the directory containing your PDFs
-    namespace = "unlabeled esoteric etc"
-    alignment = "esotericism magick occultism mysticism spirituality"
-    goal = "spiritual growth enlightenment self-realization wisdom insight discovery transformation"
-    purpose = "study knowledge healing transformation development insight discovery explore truths attain"
-    tradition = "ancient wisdom mystery schools orders philosophy esotericism eastern western traditions"
-    practices = "meditation divination ritual magic energy healing visualization"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_H-K\Hans Jonas - The Gnostic Religion'  # Change this to the directory containing your PDFs
+    namespace = "gnostics"
+    alignment = "dualism anti-materialism hidden knowledge divine spark spiritual awakening"
+    goal = "attain gnosis reunite divine spark god transcend material world achieve spiritual liberation"
+    purpose = "expose illusory nature reality reveal path enlightenment free souls cycle of reincarnation"
+    tradition = "syncretic judeo-christian roots platonic neoplatonic influences mystery religions esoteric wisdom"
+    practices = "ritual magic theurgy liturgy asceticism baptism eucharist meditation mystical union"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
