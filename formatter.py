@@ -1,10 +1,10 @@
 input_text = """
-kabbalah
-Alignment: occultism, ceremonial magic, Kabbalah, Tarot, Hermeticism, Catholicism
-Goal: reconcile magic and religion, attain spiritual enlightenment, master occult forces
-Purpose: revive Western magical tradition, influence esoteric thought, inspire secret societies
-Tradition: French occultism, Rosicrucian and Masonic influences, Christian Kabbalah, Goetia
-Practices: ritual magic, astral projection, magnetism, divination, magical evocation, esoteric writing
+Dion Fortune
+Alignment: Western esotericism, occultism, ceremonial magic, Hermeticism, Kabbalah, Jungian psychology
+Goal: spiritual development, self-realization, psychic self-defense, esoteric wisdom, service to humanity
+Purpose: teach esoteric principles, empower individuals, heal psychological wounds, unite occult traditions
+Tradition: Hermetic Order of the Golden Dawn, Theosophy, Christian mysticism, Glastonbury, Arthurian legends
+Practices: meditation, visualization, ritual magic, path working, dream analysis, writing, training others
 """
 
 
