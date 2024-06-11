@@ -1,10 +1,10 @@
 input_text = """
-Dion Fortune
-Alignment: Western esotericism, occultism, ceremonial magic, Hermeticism, Kabbalah, Jungian psychology
-Goal: spiritual development, self-realization, psychic self-defense, esoteric wisdom, service to humanity
-Purpose: teach esoteric principles, empower individuals, heal psychological wounds, unite occult traditions
-Tradition: Hermetic Order of the Golden Dawn, Theosophy, Christian mysticism, Glastonbury, Arthurian legends
-Practices: meditation, visualization, ritual magic, path working, dream analysis, writing, training others
+Edgar Cayce
+Alignment: spirituality, holistic health, psychic abilities, reincarnation, Atlantis, Christianity
+Goal: help others, access higher wisdom, promote spiritual growth, heal mind-body-spirit
+Purpose: give psychic readings, offer spiritual guidance, advance soul development, serve humanity
+Tradition: Christian mysticism, Theosophy, New Thought, Akashic records, dream interpretation
+Practices: trance readings, meditation, prayer, dream analysis, holistic remedies, past life readings
 """
 
 

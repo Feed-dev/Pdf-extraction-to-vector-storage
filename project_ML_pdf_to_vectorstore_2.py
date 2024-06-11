@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Fortune, Dion'  # Change this to the directory containing your PDFs
-    namespace = "dion fortune"
-    alignment = "western esotericism occultism ceremonial magic hermeticism kabbalah jungian psychology"
-    goal = "spiritual development self-realization psychic self-defense esoteric wisdom service humanity"
-    purpose = "teach esoteric principles empower individuals heal psychological unite occult"
-    tradition = "hermetic order golden dawn theosophy christian mysticism glastonbury arthurian legends"
-    practices = "meditation visualization ritual magic path working dream analysis"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Edgar Cayce'  # Change this to the directory containing your PDFs
+    namespace = "edgar cayce"
+    alignment = "spirituality holistic health psychic abilities reincarnation atlantis christianity"
+    goal = "help wisdom spiritual growth heal mind-body-spirit"
+    purpose = "psychic readings spiritual guidance soul development serve humanity"
+    tradition = "christian mysticism theosophy akashic records dream interpretation"
+    practices = "trance readings meditation prayer dream analysis holistic remedies past life readings"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
