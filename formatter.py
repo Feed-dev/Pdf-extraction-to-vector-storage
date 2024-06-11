@@ -1,10 +1,10 @@
 input_text = """
-Order of the Cubic Stone
-Alignment: Hermetic Order Golden Dawn tradition, Enochian magic, ceremonial magic, occultism
-Goal: train students ceremonial magic, attain spiritual unity, amplify virtues associated Tarot
-Purpose: provide magical training, guide spiritual attainment, indicate the Path of Attainment
-Tradition: founded 1930s Britain, Theodore Howard, David Edwards, Robert Turner, The Monolith magazine
-Practices: Enochian magic system, ceremonial magic training, meditation Tarot images, practical occult work
+tantra
+Alignment: Aghora, Ayurveda, Tantra, Jyotish, Western esotericism, spiritual alchemy
+Goal: self-realization, spiritual enlightenment, samarasa (equanimity), svatantra (self-functioning), bliss of undifferentiated consciousness
+Purpose: disseminate teachings of Aghora and Tantra, bridge Eastern and Western thought, guide spiritual seekers, promote holistic well-being
+Tradition: mentored by Aghori Vimalananda, influenced by Indian and Western esoteric traditions, Ayurveda, Yoga, Jyotish
+Practices: ritual, mantra, meditation, self-inquiry, extracting rasa (vital essence), navigating personas, intense (ugra) and speedy (shighra) methods
 """
 
 
