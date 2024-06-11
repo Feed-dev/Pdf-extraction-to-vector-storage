@@ -1,10 +1,10 @@
 input_text = """
-rosicrucian
-Alignment: Rosicrucian Christianity, Western esotericism, occultism, mysticism, spiritual science
-Goal: disseminate Rosicrucian teachings, spiritual enlightenment, self-knowledge, service to humanity
-Purpose: establish Rosicrucian Fellowship, present esoteric wisdom in accessible form, promote spiritual healing
-Tradition: Christian Rosenkreuz, Rosicrucian manifestos, Rudolf Steiner, Elder Brothers of Rose Cross
-Practices: study of Rosicrucian Cosmo-Conception, astrology, spiritual healing, esoteric interpretation of Christianity
+Meditation
+Alignment: mindfulness, self-awareness, inner peace, spiritual growth, mental well-being
+Goal: calm the mind, reduce stress, gain insight, cultivate compassion, attain enlightenment
+Purpose: develop concentration, increase self-understanding, promote relaxation, enhance overall well-being
+Tradition: ancient practice, Eastern religions (Buddhism, Hinduism), yoga, adapted in Western contexts
+Practices: breath awareness, mantra repetition, visualization, loving-kindness, body scan, walking meditation
 """
 
 
