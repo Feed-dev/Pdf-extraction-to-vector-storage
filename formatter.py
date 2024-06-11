@@ -1,10 +1,10 @@
 input_text = """
-Solomon
-Alignment: ceremonial magic, demonology, Solomonic magic, Judeo-Christian, Western esotericism
-Goal: invoke and control spirits, acquire knowledge and power, fulfill desires, spiritual attainment
-Purpose: provide detailed instructions for magical operations, act as a comprehensive guide to ceremonial magic
-Tradition: attributed to King Solomon, influenced by Jewish mysticism, Hermeticism, medieval grimoires
-Practices: complex rituals, consecration of magical tools, drawing of magical circles, sigils, and pentacles, prayers and invocations, spirit evocation
+Order of the Cubic Stone
+Alignment: Hermetic Order Golden Dawn tradition, Enochian magic, ceremonial magic, occultism
+Goal: train students ceremonial magic, attain spiritual unity, amplify virtues associated Tarot
+Purpose: provide magical training, guide spiritual attainment, indicate the Path of Attainment
+Tradition: founded 1930s Britain, Theodore Howard, David Edwards, Robert Turner, The Monolith magazine
+Practices: Enochian magic system, ceremonial magic training, meditation Tarot images, practical occult work
 """
 
 
