@@ -1,10 +1,10 @@
 input_text = """
-golden dawn
-Alignment: Western esotericism, Hermeticism, Rosicrucianism, Kabbalah, ceremonial magic, alchemy
-Goal: spiritual enlightenment, self-realization, attainment divine wisdom, unity divine
-Purpose: study practice occult sciences, preservation esoteric knowledge, initiation mysteries
-Tradition: occult revival, Freemasonry, Societas Rosicruciana Anglia, Cipher Manuscripts
-Practices: grade initiations, ritual magic, invocation, divination, astrology, tarot, geomancy, Enochian magic
+alchemy
+Alignment: spagyrics, laboratory alchemy, chemistry, herbalism, spiritual transformation
+Goal: create alchemical medicines, understand nature's intelligence, balance science and spirit
+Purpose: heal body and soul, reveal esoteric virtues of plants, educate others in the Art
+Tradition: classical alchemy, Paracelsian spagyrics, 3 Essentials (Mercury, Sulfur, Salt), 7 planetary archetypes
+Practices: calcination, dissolution, separation, conjunction, fermentation, distillation, cohobation, plant work, mineral work
 """
 
 
