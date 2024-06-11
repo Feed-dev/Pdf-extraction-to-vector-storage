@@ -1,10 +1,10 @@
 input_text = """
-Grimoires
-Alignment: sorcery, witchcraft, low magic, deceptive, fraudulent, heretical, pagan
-Goal: instruct in magical practices, summon supernatural entities, attain power and fulfillment
-Purpose: transmit magical knowledge, enable casting spells and crafting magical objects, guide divination
-Tradition: ancient Mesopotamian and Egyptian origins, influenced by Hellenistic and early Christian magic, attributed to legendary figures like Solomon
-Practices: incantations, spells, crafting magical objects, summoning angels/spirits/demons, divination, astrology
+Golden Dawn
+Alignment: Western esotericism, Hermeticism, Rosicrucianism, Kabbalah, ceremonial magic, alchemy
+Goal: spiritual enlightenment, self-realization, attainment of divine wisdom, unity with the divine
+Purpose: study and practice of occult sciences, preservation of esoteric knowledge, initiation into mysteries
+Tradition: 19th-century occult revival, Freemasonry, Societas Rosicruciana in Anglia, Cipher Manuscripts
+Practices: grade initiations, ritual magic, invocation, divination, astrology, tarot, geomancy, Enochian magic
 """
 
 

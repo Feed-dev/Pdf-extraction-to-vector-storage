@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Grimoires'  # Change this to the directory containing your PDFs
-    namespace = "grimoires"
-    alignment = "sorcery witchcraft magic deceptive fraudulent heretical pagan"
-    goal = "instruct magical practices summon supernatural entities attain power fulfillment"
-    purpose = "transmit magical knowledge enable casting spells crafting magical objects guide divination"
-    tradition = "ancient mesopotamian egyptian origins hellenistic christian magic attributed solomon"
-    practices = "incantations spells crafting magical objects summoning angels spirits demons divination astrology"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Golden Dawn'  # Change this to the directory containing your PDFs
+    namespace = "golden dawn"
+    alignment = "western esotericism hermeticism rosicrucianism kabbalah ceremonial magic alchemy"
+    goal = "spiritual enlightenment self-realization attainment divine wisdom unity divine"
+    purpose = "study practice occult sciences preservation esoteric knowledge initiation mysteries"
+    tradition = "1800s occult revival freemasonry societas rosicruciana anglia cipher manuscripts"
+    practices = "grade initiations ritual magic invocation divination astrology tarot geomancy enochian magic"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
