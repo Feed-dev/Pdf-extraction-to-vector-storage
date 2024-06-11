@@ -1,10 +1,10 @@
 input_text = """
-alchemy
-Alignment: spagyrics, laboratory alchemy, chemistry, herbalism, spiritual transformation
-Goal: create alchemical medicines, understand nature's intelligence, balance science and spirit
-Purpose: heal body and soul, reveal esoteric virtues of plants, educate others in the Art
-Tradition: classical alchemy, Paracelsian spagyrics, 3 Essentials (Mercury, Sulfur, Salt), 7 planetary archetypes
-Practices: calcination, dissolution, separation, conjunction, fermentation, distillation, cohobation, plant work, mineral work
+kabbalah
+Alignment: occultism, ceremonial magic, Kabbalah, Tarot, Hermeticism, Catholicism
+Goal: reconcile magic and religion, attain spiritual enlightenment, master occult forces
+Purpose: revive Western magical tradition, influence esoteric thought, inspire secret societies
+Tradition: French occultism, Rosicrucian and Masonic influences, Christian Kabbalah, Goetia
+Practices: ritual magic, astral projection, magnetism, divination, magical evocation, esoteric writing
 """
 
 

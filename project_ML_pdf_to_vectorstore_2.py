@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Bartlett'  # Change this to the directory containing your PDFs
-    namespace = "alchemy"
-    alignment = "spagyrics laboratory alchemy chemistry herbalism spiritual transformation"
-    goal = "create alchemical medicines understand nature's intelligence balance science spirit"
-    purpose = "heal body soul reveal esoteric virtues plants educate"
-    tradition = "classical alchemy paracelsian spagyrics 3 essentials mercury sulfur salt 7 planetary archetypes"
-    practices = "calcination dissolution separation conjunction fermentation distillation cohobation plant work mineral work"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_A-G\Eliphas Levi'  # Change this to the directory containing your PDFs
+    namespace = "kabbalah"
+    alignment = "occultism ceremonial magic kabbalah tarot hermeticism catholicism"
+    goal = "reconcile magic religion spiritual enlightenment master occult forces"
+    purpose = "revive western magical tradition influence esoteric thought inspire secret societies"
+    tradition = "french occultism rosicrucian masonic influences christian kabbalah goetia"
+    practices = "ritual magic astral projection magnetism divination magical evocation esoteric writing"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
