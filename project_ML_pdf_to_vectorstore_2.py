@@ -138,8 +138,8 @@ if __name__ == "__main__":
     pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_L-Z\Meditation'  # Change this to the directory containing your PDFs
     namespace = "meditation"
     alignment = "mindfulness self-awareness inner peace spiritual growth mental well-being"
-    goal = "calm the mind reduce stress gain insight cultivate compassion attain enlightenment"
-    purpose = "develop concentration increase self-understanding promote relaxation enhance overall well-being"
-    tradition = "ancient practice eastern religions (buddhism hinduism) yoga adapted in western contexts"
-    practices = "breath awareness mantra repetition visualization loving-kindness body scan walking meditation"
+    goal = "calm mind stress insight cultivate compassion attain enlightenment"
+    purpose = "develop concentration self-understanding relaxation enhance well-being"
+    tradition = "ancient eastern religions buddhism hinduism yoga"
+    practices = "breath awareness mantra repetition visualization loving-kindness meditation"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
