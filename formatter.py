@@ -1,10 +1,10 @@
 input_text = """
-Meditation
-Alignment: mindfulness, self-awareness, inner peace, spiritual growth, mental well-being
-Goal: calm the mind, reduce stress, gain insight, cultivate compassion, attain enlightenment
-Purpose: develop concentration, increase self-understanding, promote relaxation, enhance overall well-being
-Tradition: ancient practice, Eastern religions (Buddhism, Hinduism), yoga, adapted in Western contexts
-Practices: breath awareness, mantra repetition, visualization, loving-kindness, body scan, walking meditation
+Solomon
+Alignment: ceremonial magic, demonology, Solomonic magic, Judeo-Christian, Western esotericism
+Goal: invoke and control spirits, acquire knowledge and power, fulfill desires, spiritual attainment
+Purpose: provide detailed instructions for magical operations, act as a comprehensive guide to ceremonial magic
+Tradition: attributed to King Solomon, influenced by Jewish mysticism, Hermeticism, medieval grimoires
+Practices: complex rituals, consecration of magical tools, drawing of magical circles, sigils, and pentacles, prayers and invocations, spirit evocation
 """
 
 
