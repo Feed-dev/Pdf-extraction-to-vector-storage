@@ -1,10 +1,10 @@
 input_text = """
-Psychedelics
-Alignment: consciousness expansion, mystical experiences, spiritual growth, psychological healing, mind-body connection
-Goal: self-discovery, personal transformation, overcoming mental health issues, enhancing well-being, fostering connection
-Purpose: catalyze profound insights, treat depression and addiction, provide new perspectives, support psychotherapy
-Tradition: indigenous rituals, shamanic healing, countercultural exploration, underground therapy, clinical research
-Practices: ceremonial use, self-care, integration practices, therapeutic sessions, recreational use
+parapsychology
+Alignment: anomalous experiences, psi phenomena, consciousness studies, scientific investigation, interdisciplinary approach
+Goal: understand the nature of consciousness, explore the limits of human potential, investigate unexplained phenomena
+Purpose: conduct research on psi abilities, challenge materialist paradigms, expand scientific understanding of the mind
+Tradition: Society for Psychical Research, J.B. Rhine and experimental parapsychology, survival research, skeptic/proponent dialogue
+Practices: controlled experiments, case studies, field investigations, statistical analysis, theoretical development, peer-reviewed publications
 """
 
 

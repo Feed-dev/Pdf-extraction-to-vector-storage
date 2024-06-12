@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_H-K\Huxley, Aldous'  # Change this to the directory containing your PDFs
-    namespace = "psychedelics"
-    alignment = "consciousness expansion mystical experiences spiritual growth psychological healing mind-body"
-    goal = "self-discovery personal transformation overcoming mental-health enhancing well-being connection"
-    purpose = "catalyze profound insights treat perspectives psychotherapy"
-    tradition = "indigenous rituals shamanic healing countercultural exploration underground therapy clinical"
-    practices = "ceremonial self-care therapeutic sessions recreational"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_H-K\Journal of the Society for Psychical Research'  # Change this to the directory containing your PDFs
+    namespace = "parapsychology"
+    alignment = "anomalous experiences psi phenomena consciousness scientific investigation interdisciplinary"
+    goal = "understand consciousness explore potential investigate unexplained phenomena"
+    purpose = "conduct research psi abilities challenge materialist paradigms expand scientific understanding mind"
+    tradition = "society psychical research j.b. rhine experimental parapsychology skeptic"
+    practices = "controlled experiments studies investigations statistical analysis theoretical development peer-reviewed publications"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
