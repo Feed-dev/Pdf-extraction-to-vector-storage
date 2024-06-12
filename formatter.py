@@ -1,10 +1,10 @@
 input_text = """
-Edgar Cayce
-Alignment: spirituality, holistic health, psychic abilities, reincarnation, Atlantis, Christianity
-Goal: help others, access higher wisdom, promote spiritual growth, heal mind-body-spirit
-Purpose: give psychic readings, offer spiritual guidance, advance soul development, serve humanity
-Tradition: Christian mysticism, Theosophy, New Thought, Akashic records, dream interpretation
-Practices: trance readings, meditation, prayer, dream analysis, holistic remedies, past life readings
+Shamanism
+Alignment: animism, spirit world, altered states of consciousness, indigenous cultures, nature-based spirituality
+Goal: communicate with spirits, heal the sick, restore balance and harmony, guide souls to the afterlife
+Purpose: mediate between physical and spiritual realms, maintain well-being of individuals and community
+Tradition: ancient practices, passed down through generations, culture-specific, often involving initiation and mentorship
+Practices: trance states, drumming, chanting, spirit communication, healing rituals, soul retrieval, divination, use of sacred objects
 """
 
 
