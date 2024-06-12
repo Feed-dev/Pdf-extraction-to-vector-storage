@@ -1,10 +1,10 @@
 input_text = """
-Shamanism
-Alignment: animism, spirit world, altered states of consciousness, indigenous cultures, nature-based spirituality
-Goal: communicate with spirits, heal the sick, restore balance and harmony, guide souls to the afterlife
-Purpose: mediate between physical and spiritual realms, maintain well-being of individuals and community
-Tradition: ancient practices, passed down through generations, culture-specific, often involving initiation and mentorship
-Practices: trance states, drumming, chanting, spirit communication, healing rituals, soul retrieval, divination, use of sacred objects
+Psychedelics
+Alignment: consciousness expansion, mystical experiences, spiritual growth, psychological healing, mind-body connection
+Goal: self-discovery, personal transformation, overcoming mental health issues, enhancing well-being, fostering connection
+Purpose: catalyze profound insights, treat depression and addiction, provide new perspectives, support psychotherapy
+Tradition: indigenous rituals, shamanic healing, countercultural exploration, underground therapy, clinical research
+Practices: ceremonial use, self-care, integration practices, therapeutic sessions, recreational use
 """
 
 

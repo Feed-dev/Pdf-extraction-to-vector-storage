@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_H-K\Hine, Phil'  # Change this to the directory containing your PDFs
-    namespace = "shamanism"
-    alignment = "animism spirit world consciousness indigenous nature-based spirituality"
-    goal = "communicate spirits heal balance harmony guide souls afterlife"
-    purpose = "mediate spiritual realms well-being individuals community"
-    tradition = "ancient practices culture-specific initiation mentorship"
-    practices = "trance drumming chanting spirit healing rituals soul divination sacred"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_H-K\Huxley, Aldous'  # Change this to the directory containing your PDFs
+    namespace = "psychedelics"
+    alignment = "consciousness expansion mystical experiences spiritual growth psychological healing mind-body"
+    goal = "self-discovery personal transformation overcoming mental-health enhancing well-being connection"
+    purpose = "catalyze profound insights treat perspectives psychotherapy"
+    tradition = "indigenous rituals shamanic healing countercultural exploration underground therapy clinical"
+    practices = "ceremonial self-care therapeutic sessions recreational"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
