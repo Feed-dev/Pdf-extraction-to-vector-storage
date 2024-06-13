@@ -1,10 +1,10 @@
 input_text = """
-parapsychology
-Alignment: anomalous experiences, psi phenomena, consciousness studies, scientific investigation, interdisciplinary approach
-Goal: understand the nature of consciousness, explore the limits of human potential, investigate unexplained phenomena
-Purpose: conduct research on psi abilities, challenge materialist paradigms, expand scientific understanding of the mind
-Tradition: Society for Psychical Research, J.B. Rhine and experimental parapsychology, survival research, skeptic/proponent dialogue
-Practices: controlled experiments, case studies, field investigations, statistical analysis, theoretical development, peer-reviewed publications
+namespace
+Alignment: 
+Goal: 
+Purpose:
+Tradition:
+Practices:
 """
 
 
