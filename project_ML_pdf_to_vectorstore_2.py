@@ -135,7 +135,7 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Great_Library_H-K'  # Change this to the directory containing your PDFs
+    pdf_directory = r'F:\e-boeken\the-mystic-library'  # Change this to the directory containing your PDFs
     namespace = ""
     alignment = ""
     goal = ""
