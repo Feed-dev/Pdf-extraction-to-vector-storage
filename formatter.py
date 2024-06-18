@@ -1,10 +1,10 @@
 input_text = """
-namespace
-Alignment: 
-Goal: 
-Purpose:
-Tradition:
-Practices:
+Alchemy
+Alignment: ancient philosophy, natural science, spiritual practice, esoteric tradition
+Goal: transmutation of metals, immortality elixir, universal panacea, perfection of matter and spirit
+Purpose: uncover secrets of nature, achieve spiritual enlightenment, acquire divine knowledge
+Tradition: Greco-Roman Egypt, Islamic world, medieval Europe, ancient China, India
+Practices: laboratory techniques, symbolic language, ciphers, allegorical illustrations, chemical experiments, spiritual rituals
 """
 
 
