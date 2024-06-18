@@ -1,10 +1,10 @@
 input_text = """
-Sumerian
-Alignment: city-states, theocratic government, priest-kings, anthropomorphic polytheistic religion
-Goal: maintain order, please the gods, ensure prosperity, expand influence
-Purpose: develop agriculture, trade, writing, technology for the betterment of their civilization
-Tradition: invented cuneiform writing, math, astronomy, literature like Epic of Gilgamesh, built ziggurats
-Practices: religion temples, city-states, kingship priests
+astral workings
+alignment: spiritual development, self-discovery, personal growth, healing
+goal: explore inner self, gain new perspectives, connect with higher consciousness, communicate with spiritual beings
+purpose: separate soul/consciousness from physical body, travel to other realms/dimensions beyond physical world
+tradition: present in various cultures for centuries, associated with theosophy, mystical Christianity, yoga, Kabbalah, Hindu philosophy
+practices: meditation, visualization, lucid dreaming, sensory deprivation, binaural beats, dream journaling, setting intention, Kundalini experiences
 """
 
 

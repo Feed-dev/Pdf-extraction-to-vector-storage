@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\ancient mytical occult'  # Change this to the directory containing your PDFs
-    namespace = "sumerian"
-    alignment = "city-states theocratic government priest-kings anthropomorphic polytheistic religion"
-    goal = "maintain order please the gods ensure prosperity expand influence"
-    purpose = "develop agriculture trade writing technology for the betterment of their civilization"
-    tradition = "invented cuneiform writing math astronomy literature like epic of gilgamesh built ziggurats"
-    practices = "religion temples city-states kingship priests"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\astral workings'  # Change this to the directory containing your PDFs
+    namespace = "astral workings"
+    alignment = "spiritual development self-discovery personal growth healing"
+    goal = "explore inner self perspectives connect higher consciousness communicate spiritual beings"
+    purpose = "separate soul consciousness physical body travel realms dimensions worlds"
+    tradition = "theosophy mystical christianity yoga kabbalah hindu philosophy"
+    practices = "meditation visualization lucid dreaming kundalini experiences"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
