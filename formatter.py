@@ -1,10 +1,10 @@
 input_text = """
-Alchemy
-Alignment: ancient philosophy, natural science, spiritual practice, esoteric tradition
-Goal: transmutation of metals, immortality elixir, universal panacea, perfection of matter and spirit
-Purpose: uncover secrets of nature, achieve spiritual enlightenment, acquire divine knowledge
-Tradition: Greco-Roman Egypt, Islamic world, medieval Europe, ancient China, India
-Practices: laboratory techniques, symbolic language, ciphers, allegorical illustrations, chemical experiments, spiritual rituals
+Sumerian
+Alignment: city-states, theocratic government, priest-kings, anthropomorphic polytheistic religion
+Goal: maintain order, please the gods, ensure prosperity, expand influence
+Purpose: develop agriculture, trade, writing, technology for the betterment of their civilization
+Tradition: invented cuneiform writing, math, astronomy, literature like Epic of Gilgamesh, built ziggurats
+Practices: religion temples, city-states, kingship priests
 """
 
 
