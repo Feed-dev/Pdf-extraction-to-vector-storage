@@ -1,10 +1,10 @@
 input_text = """
-aleister crowley
-alignment: occultist, religious skeptic, decadent lifestyle, rejected Christianity, individualistic
-goal: cause change in conformity with Will, provoke change aligned with True Will, become one's true self beyond ego and expectations
-purpose: bring oriental wisdom to Europe, restore purer form of paganism, merge with higher power, align individuals with their True Will in new Aeon of Horus
-tradition: Hermetic Order of the Golden Dawn, Ordo Templi Orientis, founded own order A∴A∴ and religion of Thelema, influenced by ceremonial magic, Rosicrucianism, Kabbalah, yoga, Buddhism
-practices: ritual magic, sex magic, drug use, mountaineering, poetry, art, channeled writing of The Book of the Law, defined "Magick" as science and art of causing change in conformity with Will
+divination
+alignment: intuitive, interpretive, metaphysical, spiritual, traditional, cross-cultural
+goal: discern hidden information, foretell future events, gain insight into problems, discover divine will, remove troubles
+purpose: self-reflection, guidance, clarification, connection to higher power, healing social rifts, worldmaking
+tradition: ancient, widespread, diverse forms across cultures and religions, sometimes tied to cosmology and theology
+practices: cartomancy (tarot, oracle cards), casting (runes, I Ching, bones), psychometry, automatic writing, bibliomancy, palmistry, pendulums, scrying, tea leaf reading
 """
 
 
