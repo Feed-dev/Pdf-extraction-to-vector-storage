@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\chaos magic'  # Change this to the directory containing your PDFs
-    namespace = "chaos magic"
-    alignment = "individualistic eclectic postmodern rejects absolute truth beliefs"
-    goal = "achieve practical magical reality changing beliefs paradigms"
-    purpose = "dogma exploration freedom taboo occult practical magic"
-    tradition = "england austin osman discordianism illuminates thanateros thee temple ov psychick youth"
-    practices = "belief tool shifting paradigms sigil magic servitors gnosis consciousness ecstatic various"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Crowly'  # Change this to the directory containing your PDFs
+    namespace = "aleister crowley"
+    alignment = "occultist religious skeptic decadent lifestyle individualistic"
+    goal = "change conformity will provoke change aligne true will become self beyond ego"
+    purpose = "bring oriental wisdom europe paganism higher power true will new aeon of horus"
+    tradition = "hermetic order golden dawn ordo templi orientis a∴a∴ religion thelema ceremonial magic rosicrucianism kabbalah yoga buddhism"
+    practices = "ritual magic sex magic drug art channeled writing"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)

@@ -1,10 +1,10 @@
 input_text = """
-chaos magic
-alignment: individualistic, eclectic, postmodern, rejects absolute truth and fixed beliefs
-goal: achieve practical magical results, alter reality through changing beliefs and paradigms
-purpose: strip away dogma and ornamental aspects of occult traditions, focus on core techniques that work
-tradition: emerged in 1970s England, influenced by Austin Osman Spare, related to discordianism, key groups include Illuminates of Thanateros and Thee Temple ov Psychick Youth
-practices: belief as a tool, shifting paradigms, sigil magic, servitors, gnosis/altered states of consciousness through inhibitory, ecstatic, or indifferent means, borrowing from various traditions
+aleister crowley
+alignment: occultist, religious skeptic, decadent lifestyle, rejected Christianity, individualistic
+goal: cause change in conformity with Will, provoke change aligned with True Will, become one's true self beyond ego and expectations
+purpose: bring oriental wisdom to Europe, restore purer form of paganism, merge with higher power, align individuals with their True Will in new Aeon of Horus
+tradition: Hermetic Order of the Golden Dawn, Ordo Templi Orientis, founded own order A∴A∴ and religion of Thelema, influenced by ceremonial magic, Rosicrucianism, Kabbalah, yoga, Buddhism
+practices: ritual magic, sex magic, drug use, mountaineering, poetry, art, channeled writing of The Book of the Law, defined "Magick" as science and art of causing change in conformity with Will
 """
 
 
