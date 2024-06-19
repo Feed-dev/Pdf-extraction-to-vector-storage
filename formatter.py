@@ -1,10 +1,10 @@
 input_text = """
-astral workings
-alignment: spiritual development, self-discovery, personal growth, healing
-goal: explore inner self, gain new perspectives, connect with higher consciousness, communicate with spiritual beings
-purpose: separate soul/consciousness from physical body, travel to other realms/dimensions beyond physical world
-tradition: present in various cultures for centuries, associated with theosophy, mystical Christianity, yoga, Kabbalah, Hindu philosophy
-practices: meditation, visualization, lucid dreaming, sensory deprivation, binaural beats, dream journaling, setting intention, Kundalini experiences
+biblical
+alignment: non-canonical, suppressed, apocryphal, rejected by Nicene Council
+goal: provide additional gospels and epistles attributed to Jesus's apostles and disciples
+purpose: offer diverse range of early Christian beliefs and perspectives that challenge traditional teachings
+tradition: venerated by some early Christian churches in first 4 centuries, later forbidden by Nicene Council in 4th century under Emperor Constantine
+practices: translation of original texts from ancient languages, historical authentication of writings, compilation and publication of suppressed works to make them accessible
 """
 
 
