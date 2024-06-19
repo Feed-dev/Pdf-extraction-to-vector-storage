@@ -1,10 +1,10 @@
 input_text = """
-biblical
-alignment: non-canonical, suppressed, apocryphal, rejected by Nicene Council
-goal: provide additional gospels and epistles attributed to Jesus's apostles and disciples
-purpose: offer diverse range of early Christian beliefs and perspectives that challenge traditional teachings
-tradition: venerated by some early Christian churches in first 4 centuries, later forbidden by Nicene Council in 4th century under Emperor Constantine
-practices: translation of original texts from ancient languages, historical authentication of writings, compilation and publication of suppressed works to make them accessible
+chaos magic
+alignment: individualistic, eclectic, postmodern, rejects absolute truth and fixed beliefs
+goal: achieve practical magical results, alter reality through changing beliefs and paradigms
+purpose: strip away dogma and ornamental aspects of occult traditions, focus on core techniques that work
+tradition: emerged in 1970s England, influenced by Austin Osman Spare, related to discordianism, key groups include Illuminates of Thanateros and Thee Temple ov Psychick Youth
+practices: belief as a tool, shifting paradigms, sigil magic, servitors, gnosis/altered states of consciousness through inhibitory, ecstatic, or indifferent means, borrowing from various traditions
 """
 
 

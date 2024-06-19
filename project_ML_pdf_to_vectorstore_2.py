@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\biblical'  # Change this to the directory containing your PDFs
-    namespace = "biblical"
-    alignment = "non-canonical suppressed apocryphal rejected nicene council"
-    goal = "provide gospels epistles attributed jesus's apostles disciples"
-    purpose = "offer diverse range early christian beliefs perspectives challenge traditional teachings"
-    tradition = "venerated christian churches forbidden nicene council emperor constantine"
-    practices = "translation original texts ancient languages historical writings"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\chaos magic'  # Change this to the directory containing your PDFs
+    namespace = "chaos magic"
+    alignment = "individualistic eclectic postmodern rejects absolute truth beliefs"
+    goal = "achieve practical magical reality changing beliefs paradigms"
+    purpose = "dogma exploration freedom taboo occult practical magic"
+    tradition = "england austin osman discordianism illuminates thanateros thee temple ov psychick youth"
+    practices = "belief tool shifting paradigms sigil magic servitors gnosis consciousness ecstatic various"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
