@@ -1,10 +1,10 @@
 input_text = """
-shamanism
-alignment: spiritual, nature-based, animistic, eclectic, individualistic yet community-oriented
-goal: restore harmony and balance, facilitate healing, gain wisdom and guidance from spirit world, empower individuals
-purpose: maintain health and wellbeing of community, bridge material and spiritual realms, preserve ancient wisdom, promote personal growth and transformation
-tradition: ancient, cross-cultural, tied to indigenous worldviews, passed through lineages and apprenticeships, adaptable
-practices: journeying/trancing to spirit realms, rituals, power animal retrieval, soul retrieval, energy clearing, divination, use of drums and other sacred objects, herbalism, healing ceremonies
+hermes trismegistus
+alignment: syncretistic, philosophical, initiatory, secretive, elite
+goal: spiritual enlightenment, union with the divine, attainment of gnosis, immortality of the soul
+purpose: preserve ancient wisdom, provide personal transformation and salvation, supplement state religion
+tradition: Hermeticism, Gnosticism, Neoplatonism, Orphism, Pythagoreanism, mystery cults (Eleusinian, Dionysian, Mithraic, Isiac)
+practices: astrology, magic, alchemy, theurgy, divination, initiation rituals, secrecy, allegorical interpretation of myths
 """
 
 
