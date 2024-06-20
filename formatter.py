@@ -1,10 +1,10 @@
 input_text = """
-astral workings
-alignment: conscious awareness, self-reflective, intentional, eclectic, individualistic
-goal: dream control, self-discovery, problem-solving, skill practice, fear confrontation, fulfilling desires
-purpose: self-awareness, personal growth, creativity, mental health, spiritual development, entertainment
-tradition: ancient, cross-cultural, Hinduism, Buddhism, Tibetan Dream Yoga, Sufism, modern Western interest
-practices: reality checks, dream journaling, wake back to bed, mnemonic induction, meditation, supplements, electronic devices
+egyptian
+alignment: polytheistic religion, divine kingship, hierarchical society, cult-like priesthood, communal traditions
+goal: maintain secular cosmological order, divine right pharaoh, gods favor
+purpose: celebrate worship gods, honor king departed loved ones, ritual celebration
+tradition: ancient festivals Opet Heb-Sed, visiting tombs, temples
+practices: religious rituals, singing,  pyramid building architectural
 """
 
 
