@@ -1,10 +1,10 @@
 input_text = """
 shamanism
-alignment: polytheistic religion, divine kingship, hierarchical society, cult-like priesthood, communal traditions
-goal: maintain secular cosmological order, divine right pharaoh, gods favor
-purpose: celebrate worship gods, honor king departed loved ones, ritual celebration
-tradition: ancient festivals Opet Heb-Sed, visiting tombs, temples
-practices: religious rituals, singing,  pyramid building architectural
+alignment: spiritual, nature-based, animistic, eclectic, individualistic yet community-oriented
+goal: restore harmony and balance, facilitate healing, gain wisdom and guidance from spirit world, empower individuals
+purpose: maintain health and wellbeing of community, bridge material and spiritual realms, preserve ancient wisdom, promote personal growth and transformation
+tradition: ancient, cross-cultural, tied to indigenous worldviews, passed through lineages and apprenticeships, adaptable
+practices: journeying/trancing to spirit realms, rituals, power animal retrieval, soul retrieval, energy clearing, divination, use of drums and other sacred objects, herbalism, healing ceremonies
 """
 
 
