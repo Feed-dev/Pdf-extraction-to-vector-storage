@@ -135,8 +135,8 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\egyptian'  # Change this to the directory containing your PDFs
-    namespace = "egyptian"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\shamanism'  # Change this to the directory containing your PDFs
+    namespace = "shamanism"
     alignment = "polytheistic religion divine kingship hierarchical society cult-like priesthood communal traditions"
     goal = "maintain secular cosmological order divine right pharaoh gods favor"
     purpose = "celebrate worship gods honor king departed loved ones ritual celebration"

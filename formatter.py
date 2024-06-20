@@ -1,5 +1,5 @@
 input_text = """
-egyptian
+shamanism
 alignment: polytheistic religion, divine kingship, hierarchical society, cult-like priesthood, communal traditions
 goal: maintain secular cosmological order, divine right pharaoh, gods favor
 purpose: celebrate worship gods, honor king departed loved ones, ritual celebration
