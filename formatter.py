@@ -1,10 +1,10 @@
 input_text = """
-divination
-alignment: intuitive, interpretive, metaphysical, spiritual, traditional, cross-cultural
-goal: discern hidden information, foretell future events, gain insight into problems, discover divine will, remove troubles
-purpose: self-reflection, guidance, clarification, connection to higher power, healing social rifts, worldmaking
-tradition: ancient, widespread, diverse forms across cultures and religions, sometimes tied to cosmology and theology
-practices: cartomancy (tarot, oracle cards), casting (runes, I Ching, bones), psychometry, automatic writing, bibliomancy, palmistry, pendulums, scrying, tea leaf reading
+astral workings
+alignment: conscious awareness, self-reflective, intentional, eclectic, individualistic
+goal: dream control, self-discovery, problem-solving, skill practice, fear confrontation, fulfilling desires
+purpose: self-awareness, personal growth, creativity, mental health, spiritual development, entertainment
+tradition: ancient, cross-cultural, Hinduism, Buddhism, Tibetan Dream Yoga, Sufism, modern Western interest
+practices: reality checks, dream journaling, wake back to bed, mnemonic induction, meditation, supplements, electronic devices
 """
 
 
