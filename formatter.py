@@ -1,10 +1,10 @@
 input_text = """
 evocation
-alignment: spiritual, soul-centered, inner-focused, philosophical, integrative
-goal: understand soul and personality, express soul purpose, attain spiritual wisdom and enlightenment, transform consciousness
-purpose: bridge personality and soul, promote soul evolution and incarnation, apply ancient wisdom teachings to psychology, expand beyond mainstream psychology
-tradition: Ancient Wisdom, Theosophy, Alice Bailey teachings, Seven Rays, Hermeticism, Western Esotericism
-practices: meditation, study of soul and personality types, ray analysis, building antahkarana (bridge to higher self), alignment and balancing of subtle bodies, self-reflection and introspection
+alignment: ceremonial magic, Hermetic, Neoplatonic, medieval grimoires, spirit summoning
+goal: call forth spirits, demons, deities, or supernatural agents to appear externally, command and direct them to perform tasks or impart knowledge
+purpose: gain power and knowledge from spirits, bind spirits to the magician's will, access supernatural abilities, divine information
+tradition: ancient Neoplatonic theurgy, medieval and Renaissance ritual magic texts like the Keys of Solomon, Lemegeton, Abramelin, 19th-20th century occult revival
+practices: ritual circle casting, directing spirits into triangle of manifestation, use of wands, sigils and divine names, incantations and conjurations, offerings or pacts with spirits
 """
 
 
