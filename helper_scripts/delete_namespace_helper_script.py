@@ -24,6 +24,6 @@ if __name__ == "__main__":
     index_name = os.getenv("PINECONE_INDEX_NAME")
 
     # Set the namespace you want to delete
-    namespace_to_delete = ""
+    namespace_to_delete = "hermeticism"
 
     delete_namespace(api_key, index_name, namespace_to_delete)
