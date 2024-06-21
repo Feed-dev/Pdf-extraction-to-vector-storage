@@ -1,5 +1,5 @@
 input_text = """
-esoteric psychology
+evocation
 alignment: spiritual, soul-centered, inner-focused, philosophical, integrative
 goal: understand soul and personality, express soul purpose, attain spiritual wisdom and enlightenment, transform consciousness
 purpose: bridge personality and soul, promote soul evolution and incarnation, apply ancient wisdom teachings to psychology, expand beyond mainstream psychology
