@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\evocation'  # Change this to the directory containing your PDFs
-    namespace = "evocation"
-    alignment = "ceremonial magic hermetic neoplatonic medieval grimoires spirit summoning"
-    goal = "call spirits demons deities supernatural agents externally command knowledge"
-    purpose = "gain power knowledge spirits bind spirits will access supernatural abilities divine information"
-    tradition = "ancient neoplatonic theurgy medieval renaissance ritual magic texts keys solomon lemegeton abramelin occult revival"
-    practices = "ritual circle casting spirits manifestation wands sigils divine names incantations conjurations offerings pacts spirits"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\gnostic'  # Change this to the directory containing your PDFs
+    namespace = "gnostics"
+    alignment = "dualistic spiritual anti-cosmic esoteric individualistic"
+    goal = "attain gnosis awaken divine true god pleroma spiritual enlightenment salvation"
+    purpose = "truth transcend transmit secret wisdom enable spiritual transformation liberation"
+    tradition = "platonism hermeticism neoplatonism orphism pythagoreanism christianity jewish hellenistic mysticism persian babylonian"
+    practices = "initiation rituals meditation prayer asceticism theurgy magic channeling study texts nag hammadi library allegorical interpretation myths scriptures cultivation mystical experiences"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
