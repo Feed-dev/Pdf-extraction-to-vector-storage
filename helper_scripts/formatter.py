@@ -1,10 +1,10 @@
 input_text = """
-gnostics
-alignment: dualistic, spiritual over material, anti-cosmic, esoteric, individualistic
-goal: attain gnosis (divine knowledge), awaken divine spark within, escape material realm, reunite with true God in Pleroma, achieve spiritual enlightenment and salvation
-purpose: reveal hidden truth, provide path to transcend ignorance and suffering of material existence, preserve and transmit secret wisdom, enable spiritual transformation and liberation
-tradition: syncretic, influenced by Platonism, Hermeticism, Neoplatonism, Orphism, Pythagoreanism, early Christianity, Jewish and Hellenistic mysticism, Persian and Babylonian religions
-practices: initiation rituals, meditation, prayer, asceticism, theurgy, magic, channeling, study of esoteric texts (e.g. Nag Hammadi library), allegorical interpretation of myths and scriptures, cultivation of mystical experiences
+grimoires
+alignment: textbook of magic, belief in magical powers imbued in the books themselves, mixture of healing recipes and demon invocation
+goal: provide instructions for creating magical objects, casting spells, performing divination, and summoning supernatural entities
+purpose: preserve and transmit occult knowledge, enable magic practitioners to access powers and entities, achieve specific magical effects
+tradition: ancient roots in Europe and Near East, medieval and Renaissance ceremonial magic, influenced modern occult revival and fantasy fiction
+practices: creation of talismans and amulets, spells and charms, rituals for summoning angels, demons, spirits, preparation of magical tools, lists of ingredients and correspondences
 """
 
 
