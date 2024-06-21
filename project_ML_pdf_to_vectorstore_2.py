@@ -137,9 +137,9 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 if __name__ == "__main__":
     pdf_directory = r'F:\e-boeken\the-mystic-library\esoteric psychology'  # Change this to the directory containing your PDFs
     namespace = "esoteric psychology"
-    alignment = "angelic ceremonial christian kabbalistic"
-    goal = "communicate angels gain knowledge power spiritual advancement theurgic effects"
-    purpose = "unlock secrets creation attain divine wisdom command spirits elements apocalyptic visions"
-    tradition = "john dee edward kelley 1500s england hermetic order golden dawn aleister crowley occult revival"
-    practices = "scrying spirit evocation channeled wax seals magic weapons recitation visualization astral travel"
+    alignment = "spiritual soul-centered inner-focused philosophical integrative"
+    goal = "understand soul personality spiritual wisdom enlightenment transform consciousness"
+    purpose = "bridge soul evolution incarnation ancient wisdom teachings psychology beyond"
+    tradition = "ancient wisdom theosophy alice bailey teachings seven rays hermeticism western esotericism"
+    practices = "meditation study soul types analysis higher self alignment balancing self-reflection introspection"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
