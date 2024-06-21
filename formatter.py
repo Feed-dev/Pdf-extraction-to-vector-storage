@@ -1,10 +1,10 @@
 input_text = """
-hermes trismegistus
-alignment: syncretistic, philosophical, initiatory, secretive, elite
-goal: spiritual enlightenment, union with the divine, attainment of gnosis, immortality of the soul
-purpose: preserve ancient wisdom, provide personal transformation and salvation, supplement state religion
-tradition: Hermeticism, Gnosticism, Neoplatonism, Orphism, Pythagoreanism, mystery cults (Eleusinian, Dionysian, Mithraic, Isiac)
-practices: astrology, magic, alchemy, theurgy, divination, initiation rituals, secrecy, allegorical interpretation of myths
+esoteric psychology
+alignment: spiritual, soul-centered, inner-focused, philosophical, integrative
+goal: understand soul and personality, express soul purpose, attain spiritual wisdom and enlightenment, transform consciousness
+purpose: bridge personality and soul, promote soul evolution and incarnation, apply ancient wisdom teachings to psychology, expand beyond mainstream psychology
+tradition: Ancient Wisdom, Theosophy, Alice Bailey teachings, Seven Rays, Hermeticism, Western Esotericism
+practices: meditation, study of soul and personality types, ray analysis, building antahkarana (bridge to higher self), alignment and balancing of subtle bodies, self-reflection and introspection
 """
 
 
