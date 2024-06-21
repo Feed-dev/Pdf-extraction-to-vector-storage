@@ -135,8 +135,8 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\esoteric psychology'  # Change this to the directory containing your PDFs
-    namespace = "esoteric psychology"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\evocation'  # Change this to the directory containing your PDFs
+    namespace = "evocation"
     alignment = "spiritual soul-centered inner-focused philosophical integrative"
     goal = "understand soul personality spiritual wisdom enlightenment transform consciousness"
     purpose = "bridge soul evolution incarnation ancient wisdom teachings psychology beyond"
