@@ -1,10 +1,10 @@
 input_text = """
-evocation
-alignment: ceremonial magic, Hermetic, Neoplatonic, medieval grimoires, spirit summoning
-goal: call forth spirits, demons, deities, or supernatural agents to appear externally, command and direct them to perform tasks or impart knowledge
-purpose: gain power and knowledge from spirits, bind spirits to the magician's will, access supernatural abilities, divine information
-tradition: ancient Neoplatonic theurgy, medieval and Renaissance ritual magic texts like the Keys of Solomon, Lemegeton, Abramelin, 19th-20th century occult revival
-practices: ritual circle casting, directing spirits into triangle of manifestation, use of wands, sigils and divine names, incantations and conjurations, offerings or pacts with spirits
+gnostics
+alignment: dualistic, spiritual over material, anti-cosmic, esoteric, individualistic
+goal: attain gnosis (divine knowledge), awaken divine spark within, escape material realm, reunite with true God in Pleroma, achieve spiritual enlightenment and salvation
+purpose: reveal hidden truth, provide path to transcend ignorance and suffering of material existence, preserve and transmit secret wisdom, enable spiritual transformation and liberation
+tradition: syncretic, influenced by Platonism, Hermeticism, Neoplatonism, Orphism, Pythagoreanism, early Christianity, Jewish and Hellenistic mysticism, Persian and Babylonian religions
+practices: initiation rituals, meditation, prayer, asceticism, theurgy, magic, channeling, study of esoteric texts (e.g. Nag Hammadi library), allegorical interpretation of myths and scriptures, cultivation of mystical experiences
 """
 
 
