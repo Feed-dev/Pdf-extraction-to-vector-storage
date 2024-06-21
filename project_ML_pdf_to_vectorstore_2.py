@@ -136,7 +136,7 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 if __name__ == "__main__":
     pdf_directory = r'F:\e-boeken\the-mystic-library\hermeticism'  # Change this to the directory containing your PDFs
-    namespace = "hermeticism"
+    namespace = "hermes trismegistus"
     alignment = "philosophical spiritual esoteric syncretic individualistic"
     goal = "gnosis divine knowledge harmony universal laws spiritual enlightenment liberation transmute nature self"
     purpose = "understand apply principles universe discover inner divine nature transform consciousness awakening"
