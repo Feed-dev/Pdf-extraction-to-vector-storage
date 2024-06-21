@@ -1,22 +1,24 @@
 import os
 from PyPDF2 import PdfMerger
 
+
 def combine_pdfs(input_folder, output_name):
     # Create a PdfMerger object
     merger = PdfMerger()
 
-    # Loop through the numbered PDF files from 01 to 17
-    for i in range(1, 18):
-        # Create the filename with zero-padded number
-        filename = f"{i:02d}.pdf"
+    # Get all PDF files in the input folder
+    pdf_files = [f for f in os.listdir(input_folder) if f.lower().endswith('.pdf')]
+
+    # Sort the PDF files alphabetically
+    pdf_files.sort()
+
+    # Loop through the sorted PDF files
+    for filename in pdf_files:
         file_path = os.path.join(input_folder, filename)
 
-        # Check if the file exists
-        if os.path.exists(file_path):
-            # Append the PDF to the merger
-            merger.append(file_path)
-        else:
-            print(f"Warning: File {filename} not found.")
+        # Append the PDF to the merger
+        merger.append(file_path)
+        print(f"Added: {filename}")
 
     # Create the output folder if it doesn't exist
     output_folder = os.path.join(input_folder, "output")
@@ -30,6 +32,7 @@ def combine_pdfs(input_folder, output_name):
         merger.write(output)
 
     print(f"Combined PDF saved as {output_file}")
+
 
 # Get user input
 input_folder = input("Enter the path to the folder containing the PDF files: ")
