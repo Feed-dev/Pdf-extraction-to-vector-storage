@@ -1,10 +1,10 @@
 input_text = """
-grimoires
-alignment: textbook of magic, belief in magical powers imbued in the books themselves, mixture of healing recipes and demon invocation
-goal: provide instructions for creating magical objects, casting spells, performing divination, and summoning supernatural entities
-purpose: preserve and transmit occult knowledge, enable magic practitioners to access powers and entities, achieve specific magical effects
-tradition: ancient roots in Europe and Near East, medieval and Renaissance ceremonial magic, influenced modern occult revival and fantasy fiction
-practices: creation of talismans and amulets, spells and charms, rituals for summoning angels, demons, spirits, preparation of magical tools, lists of ingredients and correspondences
+hermeticism
+alignment: philosophical, spiritual, esoteric, syncretic, individualistic
+goal: attain gnosis (divine knowledge), live in harmony with universal laws, achieve spiritual enlightenment and liberation, transmute lower nature into higher self
+purpose: understand and apply principles governing universe, discover inner divine nature, transform consciousness, contribute to collective awakening
+tradition: ancient Egyptian and Greek roots, influenced by Platonism, Gnosticism, Neoplatonism, Kabbalah, alchemy, ritual magic
+practices: study of Hermetic texts (e.g. Corpus Hermeticum, Emerald Tablet), meditation, contemplation, ritual, alchemy, astrology, theurgy, talismanic magic
 """
 
 
