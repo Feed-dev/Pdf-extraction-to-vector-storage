@@ -1,10 +1,10 @@
 input_text = """
-hermeticism
-alignment: philosophical, spiritual, esoteric, syncretic, individualistic
-goal: attain gnosis (divine knowledge), live in harmony with universal laws, achieve spiritual enlightenment and liberation, transmute lower nature into higher self
-purpose: understand and apply principles governing universe, discover inner divine nature, transform consciousness, contribute to collective awakening
-tradition: ancient Egyptian and Greek roots, influenced by Platonism, Gnosticism, Neoplatonism, Kabbalah, alchemy, ritual magic
-practices: study of Hermetic texts (e.g. Corpus Hermeticum, Emerald Tablet), meditation, contemplation, ritual, alchemy, astrology, theurgy, talismanic magic
+esoteric psychology
+alignment: spiritual, philosophical, soul-centered, integrative, ray-based
+goal: understand soul and personality, express soul purpose, attain spiritual wisdom and enlightenment, transform consciousness
+purpose: bridge personality and soul, promote soul evolution and incarnation, apply ancient wisdom to psychology, expand beyond mainstream psychology
+tradition: Ancient Wisdom, Theosophy, Alice Bailey teachings, Seven Rays, Hermeticism
+practices: meditation, study of soul and personality types, ray analysis, building antahkarana (bridge to higher self), alignment of subtle bodies
 """
 
 
