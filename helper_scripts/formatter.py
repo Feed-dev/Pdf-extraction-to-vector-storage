@@ -1,10 +1,10 @@
 input_text = """
-Voudon
-alignment: African diaspora religion, syncretic, spiritual, cosmocentric worldview, interconnected realms
-goal: connect with spirits (lwa), gain protection and guidance, maintain harmony and balance, heal maladies, manifest desires
-purpose: preserve African spiritual heritage, provide framework for mental health and identity, empower individuals and communities, integrate diverse traditions
-tradition: West African Vodun, Haitian Vodou, New Orleans Voodoo, influenced by Catholicism and Native American practices, evolving and adaptive
-practices: rituals, possession (mounting) by lwa, offerings, divination, herbalism, magic (charms, dolls), ancestor veneration, drumming and dance
+witchcraft
+alignment: spiritual, nature-based, personal, eclectic, diverse
+goal: connect with divine, develop magical skills, manifest desires, bring positive change, spiritual growth
+purpose: preserve magical traditions, empower individuals, promote self-awareness, facilitate healing and balance, honor natural cycles
+tradition: ancient, cross-cultural, folk magic, pre-Christian, indigenous, modern adaptations (Wicca, Traditional Witchcraft)
+practices: spellcasting, divination, herbalism, ritual, meditation, working with spirits and elements, magical tools, setting intentions
 """
 
 
