@@ -1,10 +1,10 @@
 input_text = """
-esoteric psychology
-alignment: spiritual, philosophical, esoteric, non-dogmatic, universal
-goal: spiritual enlightenment, self-realization, understanding the mysteries of life, harmonizing science/philosophy/religion, promoting brotherhood
-purpose: help humanity find wisdom and meaning, nurture spiritual growth, provide a rational basis for religious ideas, further the search for truth
-tradition: ancient wisdom, perennial philosophy, influenced by Eastern and Western mysticism, esotericism, modernist re-evaluation of religious traditions
-practices: study, meditation, self-transformation, living one's beliefs, open-minded inquiry, altruistic service, comparative study of religions and philosophies
+Voudon
+alignment: African diaspora religion, syncretic, spiritual, cosmocentric worldview, interconnected realms
+goal: connect with spirits (lwa), gain protection and guidance, maintain harmony and balance, heal maladies, manifest desires
+purpose: preserve African spiritual heritage, provide framework for mental health and identity, empower individuals and communities, integrate diverse traditions
+tradition: West African Vodun, Haitian Vodou, New Orleans Voodoo, influenced by Catholicism and Native American practices, evolving and adaptive
+practices: rituals, possession (mounting) by lwa, offerings, divination, herbalism, magic (charms, dolls), ancestor veneration, drumming and dance
 """
 
 
