@@ -1,10 +1,10 @@
 input_text = """
-esoteric psychology
-alignment: spiritual, philosophical, soul-centered, integrative, ray-based
-goal: understand soul and personality, express soul purpose, attain spiritual wisdom and enlightenment, transform consciousness
-purpose: bridge personality and soul, promote soul evolution and incarnation, apply ancient wisdom to psychology, expand beyond mainstream psychology
-tradition: Ancient Wisdom, Theosophy, Alice Bailey teachings, Seven Rays, Hermeticism
-practices: meditation, study of soul and personality types, ray analysis, building antahkarana (bridge to higher self), alignment of subtle bodies
+psychedelics
+alignment: therapeutic, spiritual, indigenous, countercultural, consciousness-expanding
+goal: healing trauma and mental health issues, personal growth, spiritual insight, enhanced well-being, cognitive flexibility
+purpose: catalyze profound inner experiences, facilitate therapeutic breakthroughs, provide new perspectives, support spiritual development, challenge cultural paradigms
+tradition: shamanic and indigenous use, 1960s countercultural movement, underground therapy, clinical research, harm reduction and community support
+practices: ceremonial use in indigenous cultures, therapeutic administration with preparation and integration, microdosing, festival and recreational use, meditation and spiritual practices
 """
 
 
