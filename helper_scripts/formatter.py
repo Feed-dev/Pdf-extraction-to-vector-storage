@@ -1,10 +1,10 @@
 input_text = """
-psychedelics
-alignment: therapeutic, spiritual, indigenous, countercultural, consciousness-expanding
-goal: healing trauma and mental health issues, personal growth, spiritual insight, enhanced well-being, cognitive flexibility
-purpose: catalyze profound inner experiences, facilitate therapeutic breakthroughs, provide new perspectives, support spiritual development, challenge cultural paradigms
-tradition: shamanic and indigenous use, 1960s countercultural movement, underground therapy, clinical research, harm reduction and community support
-practices: ceremonial use in indigenous cultures, therapeutic administration with preparation and integration, microdosing, festival and recreational use, meditation and spiritual practices
+kabbalah
+alignment: Jewish mysticism, esoteric, theosophical, meditative, practical/magical
+goal: unite with divine, understand creation, transform consciousness, manifest desires, align lower and higher realities
+purpose: give meaning to religious practice, redeem spiritual realms through human conduct, achieve spiritual enlightenment, cultivate virtues and life purpose
+tradition: medieval Zoharic Kabbalah, Lurianic Kabbalah, Ecstatic/Prophetic Kabbalah of Abulafia, Practical/Magical Kabbalah, Hermetic Qabalah
+practices: Torah study (PaRDeS), meditation, prayer, white magic, talismans, letter/number mysticism, Tree of Life, Sefirot contemplation
 """
 
 
