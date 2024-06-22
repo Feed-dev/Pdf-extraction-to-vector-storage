@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\parapsychology'  # Change this to the directory containing your PDFs
-    namespace = "esoteric psychology"
-    alignment = "spiritual philosophical soul-centered integrative ray-based"
-    goal = "understand soul purpose attain spiritual wisdom enlightenment transform consciousness"
-    purpose = "soul evolution incarnation ancient wisdom psychology"
-    tradition = "ancient wisdom theosophy alice bailey teachings seven rays hermeticism"
-    practices = "meditation study soul personality types ray analysis building antahkarana higher self alignment"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\psychedelics'  # Change this to the directory containing your PDFs
+    namespace = "psychedelics"
+    alignment = "therapeutic spiritual indigenous countercultural consciousness-expanding"
+    goal = "healing trauma growth spiritual insight enhanced well-being cognitive flexibility"
+    purpose = "catalyze inner experiences facilitate therapeutic breakthroughs perspectives spiritual development paradigms"
+    tradition = "shamanic indigenous 1960s countercultural movement underground therapy clinical research community"
+    practices = "ceremonial indigenous cultures therapeutic microdosing festival recreational meditation"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
