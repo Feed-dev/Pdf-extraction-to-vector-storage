@@ -1,10 +1,10 @@
 input_text = """
-witchcraft
-alignment: spiritual, nature-based, personal, eclectic, diverse
-goal: connect with divine, develop magical skills, manifest desires, bring positive change, spiritual growth
-purpose: preserve magical traditions, empower individuals, promote self-awareness, facilitate healing and balance, honor natural cycles
-tradition: ancient, cross-cultural, folk magic, pre-Christian, indigenous, modern adaptations (Wicca, Traditional Witchcraft)
-practices: spellcasting, divination, herbalism, ritual, meditation, working with spirits and elements, magical tools, setting intentions
+zos kia sorcery
+alignment: individualistic, transgressive, ecstatic, antinomian, subconscious
+goal: access Kia (primal self), excreate/manifest desires, transcend duality, attain magical power and wisdom
+purpose: liberate from societal/mental limitations, empower true will, evolve consciousness, achieve cosmic self-love
+tradition: developed by Austin Osman Spare, influenced by Thelema, witchcraft, tantra, atavistic resurgence
+practices: sigil magic, mantras, death posture, sacred alphabet, sexual gnosis, automatic drawing, dream control
 """
 
 
