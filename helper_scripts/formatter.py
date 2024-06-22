@@ -1,10 +1,10 @@
 input_text = """
-kabbalah
-alignment: Jewish mysticism, esoteric, theosophical, meditative, practical/magical
-goal: unite with divine, understand creation, transform consciousness, manifest desires, align lower and higher realities
-purpose: give meaning to religious practice, redeem spiritual realms through human conduct, achieve spiritual enlightenment, cultivate virtues and life purpose
-tradition: medieval Zoharic Kabbalah, Lurianic Kabbalah, Ecstatic/Prophetic Kabbalah of Abulafia, Practical/Magical Kabbalah, Hermetic Qabalah
-practices: Torah study (PaRDeS), meditation, prayer, white magic, talismans, letter/number mysticism, Tree of Life, Sefirot contemplation
+rune magic
+alignment: Norse, Germanic, pagan, esoteric, practical
+goal: divination, protection, healing, success, influencing fate, connecting with gods and mythic forces
+purpose: harness runic energies, manifest intentions, gain wisdom and guidance, spiritual empowerment, preserve cultural heritage
+tradition: Viking Age, medieval, Odinic mysticism, contemporary Paganism and Heathenry, revival of ancient practices
+practices: carving and inscribing runes, rune casting, bindrunes, talismans and amulets, ritual magic, meditation, shamanic journeying
 """
 
 
