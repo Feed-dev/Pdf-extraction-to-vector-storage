@@ -1,10 +1,10 @@
 input_text = """
-rune magic
-alignment: Norse, Germanic, pagan, esoteric, practical
-goal: divination, protection, healing, success, influencing fate, connecting with gods and mythic forces
-purpose: harness runic energies, manifest intentions, gain wisdom and guidance, spiritual empowerment, preserve cultural heritage
-tradition: Viking Age, medieval, Odinic mysticism, contemporary Paganism and Heathenry, revival of ancient practices
-practices: carving and inscribing runes, rune casting, bindrunes, talismans and amulets, ritual magic, meditation, shamanic journeying
+setian
+alignment: individualistic, self-deifying, left-hand path, psyche-centric, isolate existence
+goal: attain immortality of consciousness, preserve and strengthen individual essence, become one's own god, achieve Xeper (self-transformation/evolution)
+purpose: reject surrender to external deities, uphold individual agency and power, reach personal apotheosis, magically influence subjective universe
+tradition: Temple of Set (founded 1975), influenced by Church of Satan hierarchy, Egyptian god Set as archetype of isolate self-consciousness
+practices: initiatory degrees, application and evaluation for membership, individual ritual magic, birthday celebrations, pursuit of self-development
 """
 
 
