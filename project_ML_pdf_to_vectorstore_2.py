@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\rune magic'  # Change this to the directory containing your PDFs
-    namespace = "rune magic"
-    alignment = "norse germanic pagan esoteric practical"
-    goal = "divination protection healing success influencing fate connecting gods mythic forces"
-    purpose = "harness runic energies manifest intentions gain wisdom guidance spiritual empowerment preserve cultural heritage"
-    tradition = "viking age medieval odinic mysticism contemporary paganism heathenry revival ancient"
-    practices = "carving inscribing runes rune casting bindrunes talismans amulets ritual magic meditation shamanic journeying"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\seth'  # Change this to the directory containing your PDFs
+    namespace = "setian"
+    alignment = "individualistic self-deifying left-hand path psyche-centric existence"
+    goal = "attain immortality consciousness individual essence become god achieve xeper self-transformation evolution"
+    purpose = "reject surrender external deities individual agency power apotheosis magically influence subjective universe"
+    tradition = "temple set 1975 influenced church satan hierarchy egyptian god set archetype isolate self-consciousness"
+    practices = "initiatory degrees application evaluation membership individual ritual magic birthday celebrations pursuit self-development"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
