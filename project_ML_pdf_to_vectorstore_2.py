@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\tarot'  # Change this to the directory containing your PDFs
-    namespace = "tarot"
-    alignment = "spiritual intuitive introspective holistic self-reflective"
-    goal = "gain insight wisdom align purpose achieve goals decisions personal growth transformation"
-    purpose = "inner wisdom future manifest desires self-awareness guidance clarity"
-    tradition = "ancient divination playing cards esoteric associations fortune-telling modern psychological spiritual tool"
-    practices = "card reading intuitive interpretation spreads meditation journaling visualization integration into goal-setting planning"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\theosophical'  # Change this to the directory containing your PDFs
+    namespace = "esoteric psychology"
+    alignment = "spiritual philosophical esoteric non-dogmatic universal"
+    goal = "spiritual enlightenment self-realization understanding mysteries life harmonizing science philosophy religion brotherhood"
+    purpose = "help humanity wisdom meaning nurture spiritual growth rational religious ideas search truth"
+    tradition = "ancient wisdom perennial philosophy influenced eastern western mysticism esotericism modernist re-evaluation religious traditions"
+    practices = "study meditation self-transformation living beliefs open-minded inquiry altruistic study religions philosophies"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
