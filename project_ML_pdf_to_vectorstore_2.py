@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\qabalah'  # Change this to the directory containing your PDFs
-    namespace = "kabbalah"
-    alignment = "jewish mysticism esoteric theosophical meditative practical magical"
-    goal = "unite divine understand creation transform consciousness manifest desires align realities"
-    purpose = "meaning religious practice redeem spiritual realms spiritual enlightenment cultivate virtues life purpose"
-    tradition = "medieval zoharic kabbalah lurianic ecstatic prophetic abulafia practical hermetic qabalah"
-    practices = "torah study pardes meditation prayer white magic talismans letter number mysticism tree life sefirot contemplation"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\rune magic'  # Change this to the directory containing your PDFs
+    namespace = "rune magic"
+    alignment = "norse germanic pagan esoteric practical"
+    goal = "divination protection healing success influencing fate connecting gods mythic forces"
+    purpose = "harness runic energies manifest intentions gain wisdom guidance spiritual empowerment preserve cultural heritage"
+    tradition = "viking age medieval odinic mysticism contemporary paganism heathenry revival ancient"
+    practices = "carving inscribing runes rune casting bindrunes talismans amulets ritual magic meditation shamanic journeying"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
