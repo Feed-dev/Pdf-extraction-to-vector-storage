@@ -1,10 +1,10 @@
 input_text = """
-tantra
-alignment: spiritual, philosophical, esoteric, holistic, integrative
-goal: spiritual enlightenment, self-realization, union with the divine, harmonizing body/mind/spirit, embracing fullness of life
-purpose: transform consciousness, awaken divine potential, integrate spirituality and sensuality, cultivate presence and mindfulness, empower the individual
-tradition: ancient Indian and Tibetan origins, influenced Hinduism and Buddhism, Shakta Tantra, Kaula Tantra, Vajrayana, Neotantra in the West
-practices: meditation, breathwork, yoga, mantras, yantras, deity worship, ritual, energy work, sacred sexuality, guru-disciple relationship
+Taoism
+alignment: spiritual, philosophical, naturalistic, holistic, harmonious
+goal: align with the Tao (the Way), attain serenity and inner peace, achieve harmony and balance, cultivate virtues, realize true self
+purpose: live in accord with nature's rhythms, embrace simplicity and spontaneity, transform consciousness, nourish life essence, provide guidance for good living
+tradition: ancient Chinese origins, influenced by Lao Tzu and Zhuangzi, religious and philosophical branches, syncretism with Buddhism and Confucianism
+practices: meditation, qigong, tai chi, feng shui, ritual, divination, alchemy, self-cultivation, living in harmony with seasons and natural cycles
 """
 
 
