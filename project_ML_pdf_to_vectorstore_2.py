@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\seth'  # Change this to the directory containing your PDFs
-    namespace = "setian"
-    alignment = "individualistic self-deifying left-hand path psyche-centric existence"
-    goal = "attain immortality consciousness individual essence become god achieve xeper self-transformation evolution"
-    purpose = "reject surrender external deities individual agency power apotheosis magically influence subjective universe"
-    tradition = "temple set 1975 influenced church satan hierarchy egyptian god set archetype isolate self-consciousness"
-    practices = "initiatory degrees application evaluation membership individual ritual magic birthday celebrations pursuit self-development"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Taimi'  # Change this to the directory containing your PDFs
+    namespace = "tantra"
+    alignment = "spiritual philosophical esoteric holistic integrative"
+    goal = "spiritual enlightenment self-realization union divine harmonizing body mind spirit embracing fullness life"
+    purpose = "transform consciousness awaken divine potential integrate spirituality sensuality cultivate presence mindfulness empower individual"
+    tradition = "ancient indian tibetan origins influenced hinduism buddhism shakta tantra kaula tantra vajrayana neotantra west"
+    practices = "meditation breathwork yoga mantras yantras deity worship ritual energy work sacred sexuality guru-disciple relationship"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
