@@ -1,10 +1,10 @@
 input_text = """
-setian
-alignment: individualistic, self-deifying, left-hand path, psyche-centric, isolate existence
-goal: attain immortality of consciousness, preserve and strengthen individual essence, become one's own god, achieve Xeper (self-transformation/evolution)
-purpose: reject surrender to external deities, uphold individual agency and power, reach personal apotheosis, magically influence subjective universe
-tradition: Temple of Set (founded 1975), influenced by Church of Satan hierarchy, Egyptian god Set as archetype of isolate self-consciousness
-practices: initiatory degrees, application and evaluation for membership, individual ritual magic, birthday celebrations, pursuit of self-development
+tantra
+alignment: spiritual, philosophical, esoteric, holistic, integrative
+goal: spiritual enlightenment, self-realization, union with the divine, harmonizing body/mind/spirit, embracing fullness of life
+purpose: transform consciousness, awaken divine potential, integrate spirituality and sensuality, cultivate presence and mindfulness, empower the individual
+tradition: ancient Indian and Tibetan origins, influenced Hinduism and Buddhism, Shakta Tantra, Kaula Tantra, Vajrayana, Neotantra in the West
+practices: meditation, breathwork, yoga, mantras, yantras, deity worship, ritual, energy work, sacred sexuality, guru-disciple relationship
 """
 
 
