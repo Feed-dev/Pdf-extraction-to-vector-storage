@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Voudon'  # Change this to the directory containing your PDFs
-    namespace = "voudon"
-    alignment = "african diaspora religion syncretic spiritual cosmocentric worldview interconnected realms"
-    goal = "connect spirits lwa protection guidance harmony balance heal maladies manifest desires"
-    purpose = "african spiritual heritage framework mental health identity empower individuals communities integrate diverse traditions"
-    tradition = "west african vodun haitian vodou new orleans voodoo influenced catholicism native american practices evolving adaptive"
-    practices = "rituals possession mounting lwa offerings divination herbalism magic charms dolls ancestor veneration drumming dance"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\witchcraft'  # Change this to the directory containing your PDFs
+    namespace = "witchcraft"
+    alignment = "spiritual nature-based personal eclectic diverse"
+    goal = "connect divine develop magical skills manifest desires positive change spiritual growth"
+    purpose = "preserve magical traditions empower individuals promote self-awareness facilitate healing balance honor natural cycles"
+    tradition = "ancient cross-cultural folk magic pre-christian indigenous modern adaptations wicca traditional witchcraft"
+    practices = "spellcasting divination herbalism ritual meditation spirits elements magical tools setting intentions"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
