@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Taimi'  # Change this to the directory containing your PDFs
-    namespace = "tantra"
-    alignment = "spiritual philosophical esoteric holistic integrative"
-    goal = "spiritual enlightenment self-realization union divine harmonizing body mind spirit embracing fullness life"
-    purpose = "transform consciousness awaken divine potential integrate spirituality sensuality cultivate presence mindfulness empower individual"
-    tradition = "ancient indian tibetan origins influenced hinduism buddhism shakta tantra kaula tantra vajrayana neotantra west"
-    practices = "meditation breathwork yoga mantras yantras deity worship ritual energy work sacred sexuality guru-disciple relationship"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Taoism'  # Change this to the directory containing your PDFs
+    namespace = "mantak chia"
+    alignment = "spiritual philosophical naturalistic holistic harmonious"
+    goal = "tao way attain serenity inner peace achieve harmony balance cultivate virtues realize true self"
+    purpose = "live nature rhythms embrace simplicity spontaneity transform consciousness nourish life essence provide guidance good living"
+    tradition = "ancient chinese origins influenced lao tzu zhuangzi religious philosophical branches syncretism buddhism confucianism"
+    practices = "meditation qigong tai chi feng shui ritual divination alchemy self-cultivation living harmony seasons natural cycles"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
