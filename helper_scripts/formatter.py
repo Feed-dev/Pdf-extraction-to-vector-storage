@@ -1,10 +1,10 @@
 input_text = """
-Taoism
-alignment: spiritual, philosophical, naturalistic, holistic, harmonious
-goal: align with the Tao (the Way), attain serenity and inner peace, achieve harmony and balance, cultivate virtues, realize true self
-purpose: live in accord with nature's rhythms, embrace simplicity and spontaneity, transform consciousness, nourish life essence, provide guidance for good living
-tradition: ancient Chinese origins, influenced by Lao Tzu and Zhuangzi, religious and philosophical branches, syncretism with Buddhism and Confucianism
-practices: meditation, qigong, tai chi, feng shui, ritual, divination, alchemy, self-cultivation, living in harmony with seasons and natural cycles
+tarot
+alignment: spiritual, intuitive, introspective, holistic, self-reflective
+goal: gain insight and wisdom, align with purpose, set and achieve goals, make decisions, personal growth and transformation
+purpose: access inner wisdom, create the future, manifest desires, promote self-awareness, provide guidance and clarity
+tradition: ancient divination, playing cards, esoteric associations, fortune-telling, modern psychological and spiritual tool
+practices: card reading, intuitive interpretation, spreads, meditation, journaling, visualization, integration into goal-setting and planning
 """
 
 
