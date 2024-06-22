@@ -1,10 +1,10 @@
 input_text = """
-tarot
-alignment: spiritual, intuitive, introspective, holistic, self-reflective
-goal: gain insight and wisdom, align with purpose, set and achieve goals, make decisions, personal growth and transformation
-purpose: access inner wisdom, create the future, manifest desires, promote self-awareness, provide guidance and clarity
-tradition: ancient divination, playing cards, esoteric associations, fortune-telling, modern psychological and spiritual tool
-practices: card reading, intuitive interpretation, spreads, meditation, journaling, visualization, integration into goal-setting and planning
+esoteric psychology
+alignment: spiritual, philosophical, esoteric, non-dogmatic, universal
+goal: spiritual enlightenment, self-realization, understanding the mysteries of life, harmonizing science/philosophy/religion, promoting brotherhood
+purpose: help humanity find wisdom and meaning, nurture spiritual growth, provide a rational basis for religious ideas, further the search for truth
+tradition: ancient wisdom, perennial philosophy, influenced by Eastern and Western mysticism, esotericism, modernist re-evaluation of religious traditions
+practices: study, meditation, self-transformation, living one's beliefs, open-minded inquiry, altruistic service, comparative study of religions and philosophies
 """
 
 
