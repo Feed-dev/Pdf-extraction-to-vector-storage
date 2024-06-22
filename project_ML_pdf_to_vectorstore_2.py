@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\psychedelics'  # Change this to the directory containing your PDFs
-    namespace = "psychedelics"
-    alignment = "therapeutic spiritual indigenous countercultural consciousness-expanding"
-    goal = "healing trauma growth spiritual insight enhanced well-being cognitive flexibility"
-    purpose = "catalyze inner experiences facilitate therapeutic breakthroughs perspectives spiritual development paradigms"
-    tradition = "shamanic indigenous 1960s countercultural movement underground therapy clinical research community"
-    practices = "ceremonial indigenous cultures therapeutic microdosing festival recreational meditation"
+    pdf_directory = r'F:\e-boeken\the-mystic-library\qabalah'  # Change this to the directory containing your PDFs
+    namespace = "kabbalah"
+    alignment = "jewish mysticism esoteric theosophical meditative practical magical"
+    goal = "unite divine understand creation transform consciousness manifest desires align realities"
+    purpose = "meaning religious practice redeem spiritual realms spiritual enlightenment cultivate virtues life purpose"
+    tradition = "medieval zoharic kabbalah lurianic ecstatic prophetic abulafia practical hermetic qabalah"
+    practices = "torah study pardes meditation prayer white magic talismans letter number mysticism tree life sefirot contemplation"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
