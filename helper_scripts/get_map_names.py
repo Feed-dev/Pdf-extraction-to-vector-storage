@@ -37,5 +37,5 @@ def list_maps_and_files(directory):
 
 if __name__ == "__main__":
     # Provide the path to the directory you want to explore
-    directory_path = r"F:\e-boeken\the-mystic-library\great_library_A_Z"
+    directory_path = r"your path"
     list_maps_and_files(directory_path)
