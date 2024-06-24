@@ -1,10 +1,5 @@
 input_text = """
-zos kia sorcery
-alignment: individualistic, transgressive, ecstatic, antinomian, subconscious
-goal: access Kia (primal self), excreate/manifest desires, transcend duality, attain magical power and wisdom
-purpose: liberate from societal/mental limitations, empower true will, evolve consciousness, achieve cosmic self-love
-tradition: developed by Austin Osman Spare, influenced by Thelema, witchcraft, tantra, atavistic resurgence
-practices: sigil magic, mantras, death posture, sacred alphabet, sexual gnosis, automatic drawing, dream control
+spacific text for ML project
 """
 
 
