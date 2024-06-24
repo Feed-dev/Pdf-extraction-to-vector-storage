@@ -135,11 +135,11 @@ def main(pdf_directory, namespace, alignment, goal, purpose, tradition, practice
 
 
 if __name__ == "__main__":
-    pdf_directory = r'F:\e-boeken\the-mystic-library\zos kia'  # Change this to the directory containing your PDFs
-    namespace = "zos kia sorcery"
-    alignment = "individualistic transgressive ecstatic antinomian subconscious"
-    goal = "access kia primal self excreate manifest desires transcend duality attain magical power wisdom"
-    purpose = "liberate societal mental limitations empower true will evolve consciousness achieve cosmic self-love"
-    tradition = "developed austin osman spare thelema witchcraft tantra atavistic"
-    practices = "sigil magic mantras death posture sacred alphabet sexual gnosis automatic drawing dream control"
+    pdf_directory = r'the path'  # Change this to the directory containing your PDFs
+    namespace = "the namespace"
+    alignment = "fill in"
+    goal = "fill in"
+    purpose = "fill in"
+    tradition = "fill in"
+    practices = "fill in"
     main(pdf_directory, namespace, alignment, goal, purpose, tradition, practices)
