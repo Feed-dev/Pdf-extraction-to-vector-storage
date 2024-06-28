@@ -7,6 +7,7 @@ from pinecone import Pinecone, ServerlessSpec
 from langchain_cohere import CohereEmbeddings
 from dotenv import load_dotenv
 import logging
+from sklearn.metrics.pairwise import cosine_similarity
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -56,26 +57,42 @@ def extract_text_from_page(page):
         logger.error(f"Error extracting text from page: {e}")
         return ""
 
-def preprocess_text(text):
-    doc = nlp(text)
-    cleaned_text = [token.lemma_.lower() for token in doc if not token.is_stop and not token.is_punct and not token.is_space]
-    return ' '.join(cleaned_text)
 
-def chunk_text(text, chunk_size=500):
+def preprocess_text(text):
+    # Remove Unicode escape sequences and non-printable characters
+    text = ''.join(char for char in text if ord(char) >= 32 or char == '\n')
+
+    doc = nlp(text)
+    cleaned_sentences = []
+    for sent in doc.sents:
+        # Keep original capitalization and punctuation
+        cleaned_words = [token.text for token in sent if not token.is_space]
+        cleaned_sentence = ' '.join(cleaned_words)
+        if cleaned_sentence:
+            cleaned_sentences.append(cleaned_sentence)
+
+    return ' '.join(cleaned_sentences)
+
+def chunk_text(text, chunk_size=1000):
     words = text.split()
     return [" ".join(words[i:i + chunk_size]) for i in range(0, len(words), chunk_size)]
 
-def vectorize_text(text_chunks, file_name, page_num, metadata):
+def semantic_similarity(query_embedding, document_embedding):
+    return cosine_similarity([query_embedding], [document_embedding])[0][0]
+
+def vectorize_text(text_chunks, file_name, page_num, metadata, query_embedding):
     return [
-        (f"{file_name}_page_{page_num}_chunk_{i}", 
-         embeddings.embed_query(chunk), 
+        (f"{file_name}_page_{page_num}_chunk_{i}",
+         chunk_embedding,
          {
-            "text": chunk,  # Store the actual text
+            "text": chunk,
             "file": file_name,
             "page": page_num,
-            **metadata  # Include all other metadata
+            "similarity_score": semantic_similarity(query_embedding, chunk_embedding),
+            **metadata
          })
         for i, chunk in enumerate(text_chunks)
+        for chunk_embedding in [embeddings.embed_query(chunk)]
     ]
 
 def batch_upload_vectors(index, vector_data, namespace, batch_size=100):
@@ -91,7 +108,7 @@ def batch_upload_vectors(index, vector_data, namespace, batch_size=100):
         ]
         index.upsert(vectors=upserts, namespace=namespace)
 
-def process_pdf(file_path, index, namespace, metadata):
+def process_pdf(file_path, index, namespace, metadata, query_embedding):
     try:
         file_name = os.path.splitext(os.path.basename(file_path))[0]
         doc = fitz.open(file_path)
@@ -103,7 +120,7 @@ def process_pdf(file_path, index, namespace, metadata):
                 continue
             processed_text = preprocess_text(page_text)
             chunks = chunk_text(processed_text)
-            vectors = vectorize_text(chunks, file_name, page_num, metadata)
+            vectors = vectorize_text(chunks, file_name, page_num, metadata, query_embedding)
             batch_upload_vectors(index, vectors, namespace)
         doc.close()
         logger.info(f"Successfully processed {file_path}")
@@ -112,14 +129,15 @@ def process_pdf(file_path, index, namespace, metadata):
     except Exception as e:
         logger.error(f"Error processing file {file_path}: {e}")
 
-def main(pdf_directory, index_name, namespace, metadata):
+def main(pdf_directory, index_name, namespace, metadata, query):
     index = create_pinecone_index(index_name)
+    query_embedding = embeddings.embed_query(query)
     for root, dirs, files in os.walk(pdf_directory):
         for file in files:
             if file.endswith('.pdf'):
                 file_path = os.path.join(root, file)
                 logger.info(f"Processing: {file_path}")
-                process_pdf(file_path, index, namespace, metadata)
+                process_pdf(file_path, index, namespace, metadata, query_embedding)
 
 if __name__ == "__main__":
     # Example usage for a small test index
@@ -134,4 +152,5 @@ if __name__ == "__main__":
         "tradition": "esoteric",
         "practices": "meditation, visualization"
     }
-    main(test_pdf_directory, test_index_name, test_namespace, test_metadata)
+    sample_query = "What is astral projection?"
+    main(test_pdf_directory, test_index_name, test_namespace, test_metadata, sample_query)
