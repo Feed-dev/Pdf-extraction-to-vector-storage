@@ -17,7 +17,7 @@ load_dotenv()
 # Keys
 PINECONE_API_KEY = os.environ["PINECONE_API_KEY"]
 PINECONE_ENVIRONMENT = os.environ["PINECONE_ENVIRONMENT"]
-PINECONE_INDEX_NAME = os.environ["PINECONE_INDEX_NAME"]
+PINECONE_INDEX_NAME = os.environ["PINECONE_INDEX_NAME2"]
 
 # Configure pytesseract path to the Tesseract executable
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
@@ -123,9 +123,9 @@ def main(pdf_directory, index_name, namespace, metadata):
 
 if __name__ == "__main__":
     # Example usage for a small test index
-    test_pdf_directory = r'path_to_test_pdfs'
-    test_index_name = "test-esoteric-index"
-    test_namespace = "test-astral-workings"
+    test_pdf_directory = r'F:\e-boeken\the-mystic-library\Mystic_Library_A_Z\Astral Workings'
+    test_index_name = PINECONE_INDEX_NAME
+    test_namespace = "astral workings"
     test_metadata = {
         "map": "astral-workings",
         "alignment": "spiritual development",
