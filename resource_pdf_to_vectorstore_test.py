@@ -8,6 +8,7 @@ from langchain_cohere import CohereEmbeddings
 from dotenv import load_dotenv
 import logging
 from sklearn.metrics.pairwise import cosine_similarity
+import numpy as np
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -78,7 +79,8 @@ def chunk_text(text, chunk_size=1000):
     return [" ".join(words[i:i + chunk_size]) for i in range(0, len(words), chunk_size)]
 
 def semantic_similarity(query_embedding, document_embedding):
-    return cosine_similarity([query_embedding], [document_embedding])[0][0]
+    similarity = cosine_similarity([query_embedding], [document_embedding])[0][0]
+    return float(similarity)
 
 def vectorize_text(text_chunks, file_name, page_num, metadata, query_embedding):
     return [
@@ -88,7 +90,7 @@ def vectorize_text(text_chunks, file_name, page_num, metadata, query_embedding):
             "text": chunk,
             "file": file_name,
             "page": page_num,
-            "similarity_score": semantic_similarity(query_embedding, chunk_embedding),
+            "similarity_score": float(semantic_similarity(query_embedding, chunk_embedding)),  # Convert to standard float
             **metadata
          })
         for i, chunk in enumerate(text_chunks)
