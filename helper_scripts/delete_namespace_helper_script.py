@@ -21,9 +21,9 @@ def delete_namespace(api_key, index_name, namespace):
 if __name__ == "__main__":
     # Load Pinecone API key and index name from environment variables
     api_key = os.getenv("PINECONE_API_KEY")
-    index_name = os.getenv("PINECONE_INDEX_NAME")
+    index_name = os.getenv("PINECONE_INDEX_NAME2")
 
     # Set the namespace you want to delete
-    namespace_to_delete = "namespace to delete"
+    namespace_to_delete = "astral workings"
 
     delete_namespace(api_key, index_name, namespace_to_delete)
