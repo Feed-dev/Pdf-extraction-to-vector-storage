@@ -24,7 +24,7 @@ class PDFVectorizer:
     def load_environment_variables(self):
         self.PINECONE_API_KEY = os.environ["PINECONE_API_KEY"]
         self.PINECONE_ENVIRONMENT = os.environ["PINECONE_ENVIRONMENT"]
-        self.PINECONE_INDEX_NAME = os.environ["PINECONE_INDEX_NAME2"]
+        self.PINECONE_INDEX_NAME = os.environ["PINECONE_INDEX_NAME"]
         pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
     def setup_nlp(self):
