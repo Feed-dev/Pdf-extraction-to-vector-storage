@@ -127,9 +127,9 @@ class PDFVectorizer:
 
 def main():
     vectorizer = PDFVectorizer()
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Mystic_Library_A_Z\Kabbalah - Sephiroth'
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Mystic_Library_A_Z\Kabbalah - Work of the Chariot'
     index_name = vectorizer.PINECONE_INDEX_NAME
-    namespace = "kabbalah sephiroth"
+    namespace = "kabbalah work of the chariot"
     vectorizer.process_directory(pdf_directory, index_name, namespace)
 
 if __name__ == "__main__":
