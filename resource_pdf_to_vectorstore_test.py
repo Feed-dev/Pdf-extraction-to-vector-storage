@@ -127,9 +127,9 @@ class PDFVectorizer:
 
 def main():
     vectorizer = PDFVectorizer()
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Mystic_Library_A_Z\Left-Hand Path - LHP'
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Mystic_Library_A_Z\Lon Milo DuQuette O.T.O'
     index_name = vectorizer.PINECONE_INDEX_NAME
-    namespace = "left hand path"
+    namespace = "Lon Milo DuQuette"
     vectorizer.process_directory(pdf_directory, index_name, namespace)
 
 if __name__ == "__main__":
