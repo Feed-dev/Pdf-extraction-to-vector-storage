@@ -127,9 +127,9 @@ class PDFVectorizer:
 
 def main():
     vectorizer = PDFVectorizer()
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Mystic_Library_A_Z\Mantak Chia - Chi Kung - Tao'
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Mystic_Library_A_Z\McLean - Ripley Scroll - Study Course'
     index_name = vectorizer.PINECONE_INDEX_NAME
-    namespace = "mantak chia"
+    namespace = "Ripley Scroll"
     vectorizer.process_directory(pdf_directory, index_name, namespace)
 
 if __name__ == "__main__":
