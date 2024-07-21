@@ -127,9 +127,9 @@ class PDFVectorizer:
 
 def main():
     vectorizer = PDFVectorizer()
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Mystic_Library_A_Z\Order of the Golden Dawn - Hermetic'
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Mystic_Library_A_Z\Order-of-the-Cubic-Stone'
     index_name = vectorizer.PINECONE_INDEX_NAME
-    namespace = "order of the golden dawn"
+    namespace = "order of the cubic stone"
     vectorizer.process_directory(pdf_directory, index_name, namespace)
 
 if __name__ == "__main__":
