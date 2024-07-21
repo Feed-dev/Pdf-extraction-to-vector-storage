@@ -129,7 +129,7 @@ def main():
     vectorizer = PDFVectorizer()
     pdf_directory = r'F:\e-boeken\the-mystic-library\Mystic_Library_A_Z\Psychedelics'
     index_name = vectorizer.PINECONE_INDEX_NAME
-    namespace = "Psychedelics"
+    namespace = "psychedelics"
     vectorizer.process_directory(pdf_directory, index_name, namespace)
 
 if __name__ == "__main__":
