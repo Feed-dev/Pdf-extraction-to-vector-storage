@@ -127,9 +127,9 @@ class PDFVectorizer:
 
 def main():
     vectorizer = PDFVectorizer()
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Mystic_Library_A_Z\Ordo Templi Orientis - O.T.O - Thelemic - Gnostic'
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Mystic_Library_A_Z\Philosophy - Metaphysics'
     index_name = vectorizer.PINECONE_INDEX_NAME
-    namespace = "ordo templi orientis"
+    namespace = "philosophy"
     vectorizer.process_directory(pdf_directory, index_name, namespace)
 
 if __name__ == "__main__":
