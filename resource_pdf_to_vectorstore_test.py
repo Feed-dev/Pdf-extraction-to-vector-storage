@@ -127,9 +127,9 @@ class PDFVectorizer:
 
 def main():
     vectorizer = PDFVectorizer()
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Mystic_Library_A_Z\Scroll of set (mag)'
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Mystic_Library_A_Z\Sex Magic'
     index_name = vectorizer.PINECONE_INDEX_NAME
-    namespace = "scroll of set"
+    namespace = "sex magic"
     vectorizer.process_directory(pdf_directory, index_name, namespace)
 
 if __name__ == "__main__":
