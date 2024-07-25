@@ -129,7 +129,7 @@ def main():
     vectorizer = PDFVectorizer()
     pdf_directory = r'F:\e-boeken\the-mystic-library\Storm research articles'
     index_name = vectorizer.PINECONE_INDEX_NAME
-    namespace = "overview of esoteric traditions"
+    namespace = "wiki overview of esoteric traditions"
     vectorizer.process_directory(pdf_directory, index_name, namespace)
 
 if __name__ == "__main__":
