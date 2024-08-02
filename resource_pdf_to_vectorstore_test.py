@@ -127,7 +127,7 @@ class PDFVectorizer:
 
 def main():
     vectorizer = PDFVectorizer()
-    pdf_directory = r'directory containing the pdfs'
+    pdf_directory = r'directory containing pdfs'
     index_name = vectorizer.PINECONE_INDEX_NAME
     namespace = "namespace of vectorstore"
     vectorizer.process_directory(pdf_directory, index_name, namespace)
