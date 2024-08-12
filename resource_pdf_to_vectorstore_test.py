@@ -129,7 +129,7 @@ def main():
     vectorizer = PDFVectorizer()
     pdf_directory = r'directory containing pdfs'
     index_name = vectorizer.PINECONE_INDEX_NAME
-    namespace = "name of space for vectorstore"
+    namespace = "namespace for vectorstore"
     vectorizer.process_directory(pdf_directory, index_name, namespace)
 
 if __name__ == "__main__":
