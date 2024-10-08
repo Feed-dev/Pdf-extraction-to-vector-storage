@@ -127,9 +127,9 @@ class PDFVectorizer:
 
 def main():
     vectorizer = PDFVectorizer()
-    pdf_directory = r'F:\e-boeken\the-mystic-library\Mystic_Library_A_Z\Apocrypha - Biblical - Enochian'
+    pdf_directory = r'directory for pdfs'
     index_name = vectorizer.PINECONE_INDEX_NAME
-    namespace = "biblical apocrypha"
+    namespace = "namespace vectorstore"
     vectorizer.process_directory(pdf_directory, index_name, namespace)
 
 if __name__ == "__main__":
