@@ -1,5 +1,5 @@
 input_text = """
-spacific text for ML project
+specific text for ML project
 """
 
 
