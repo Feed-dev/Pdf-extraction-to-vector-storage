@@ -71,14 +71,15 @@ class PDFVectorizer:
         words = text.split()
         return [" ".join(words[i:i + chunk_size]) for i in range(0, len(words), chunk_size)]
 
-    def vectorize_text(self, text_chunks, file_name, page_num):
+    def vectorize_text(self, text_chunks, file_name, page_num, category=None):
         return [
             (f"{file_name}_page_{page_num}_chunk_{i}",
              self.embeddings.embed_query(chunk),
              {
-                "text": chunk,
-                "file": file_name,
-                "page": page_num
+                 "text": chunk,
+                 "file": file_name,
+                 "page": page_num,
+                 "category": category
              })
             for i, chunk in enumerate(text_chunks)
         ]
@@ -96,7 +97,7 @@ class PDFVectorizer:
             ]
             index.upsert(vectors=upserts, namespace=namespace)
 
-    def process_pdf(self, file_path, index, namespace):
+    def process_pdf(self, file_path, index, namespace, category=None):
         try:
             file_name = os.path.splitext(os.path.basename(file_path))[0]
             with fitz.open(file_path) as doc:
@@ -108,7 +109,7 @@ class PDFVectorizer:
                         continue
                     processed_text = self.preprocess_text(page_text)
                     chunks = self.chunk_text(processed_text)
-                    vectors = self.vectorize_text(chunks, file_name, page_num)
+                    vectors = self.vectorize_text(chunks, file_name, page_num, category)
                     self.batch_upload_vectors(index, vectors, namespace)
             self.logger.info(f"Successfully processed {file_path}")
         except fitz.FileDataError as e:
@@ -116,21 +117,22 @@ class PDFVectorizer:
         except Exception as e:
             self.logger.error(f"Error processing file {file_path}: {e}")
 
-    def process_directory(self, pdf_directory, index_name, namespace):
+    def process_directory(self, pdf_directory, index_name, namespace, category=None):
         index = self.create_pinecone_index(index_name)
         for root, dirs, files in os.walk(pdf_directory):
             for file in files:
                 if file.endswith('.pdf'):
                     file_path = os.path.join(root, file)
                     self.logger.info(f"Processing: {file_path}")
-                    self.process_pdf(file_path, index, namespace)
+                    self.process_pdf(file_path, index, namespace, category)
 
 def main():
     vectorizer = PDFVectorizer()
     pdf_directory = r'directory for pdfs'
     index_name = vectorizer.PINECONE_INDEX_NAME
-    namespace = "namespace vectorstore"
-    vectorizer.process_directory(pdf_directory, index_name, namespace)
+    namespace = "namespace of vectorstore"
+    category = "your_category_here"  # Set your desired category
+    vectorizer.process_directory(pdf_directory, index_name, namespace, category)
 
 if __name__ == "__main__":
     main()
