@@ -128,10 +128,10 @@ class PDFVectorizer:
 
 def main():
     vectorizer = PDFVectorizer()
-    pdf_directory = r'directory for pdfs'
+    pdf_directory = r'F:\e-boeken\the-mystic-library\Mystic_Library_A_Z\Alchemy'
     index_name = vectorizer.PINECONE_INDEX_NAME
-    namespace = "namespace of vectorstore"
-    category = "your_category_here"  # Set your desired category
+    namespace = "the_mystic_library"
+    category = "Alchemy"  # Set your desired category
     vectorizer.process_directory(pdf_directory, index_name, namespace, category)
 
 if __name__ == "__main__":
